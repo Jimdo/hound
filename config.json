@@ -1,0 +1,6403 @@
+{
+    "max-concurrent-indexers" : 2,
+    "max-connections" : 10,
+    "dbpath" : "data",
+    "title" : "Hound",
+    "health-check-uri" : "/healthz",
+    "vcs-config" : {
+        "git": {
+            "detect-ref" : true
+        }
+    },
+    "repos" : {
+        "jimkanban" : {
+            "url" : "git@github.com:Jimdo/jimkanban.git",
+	    "enable-poll-updates" : false
+        },
+
+        "graylog2-server" : {
+            "url" : "git@github.com:Jimdo/graylog2-server.git",
+	    "enable-poll-updates" : false
+        },
+
+        "syslog4j" : {
+            "url" : "git@github.com:Jimdo/syslog4j.git",
+	    "enable-poll-updates" : false
+        },
+
+        "git-hooks" : {
+            "url" : "git@github.com:Jimdo/git-hooks.git",
+	    "enable-poll-updates" : false
+        },
+
+        "php-test-helpers" : {
+            "url" : "git@github.com:Jimdo/php-test-helpers.git",
+	    "enable-poll-updates" : false
+        },
+
+        "Jimdo-GOsa" : {
+            "url" : "git@github.com:Jimdo/Jimdo-GOsa.git",
+	    "enable-poll-updates" : false
+        },
+
+        "vagrant-statsd-graphite-puppet" : {
+            "url" : "git@github.com:Jimdo/vagrant-statsd-graphite-puppet.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sonar-box" : {
+            "url" : "git@github.com:Jimdo/sonar-box.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-galera" : {
+            "url" : "git@github.com:Jimdo/puppet-galera.git",
+	    "enable-poll-updates" : false
+        },
+
+        "SJDecimal" : {
+            "url" : "git@github.com:Jimdo/SJDecimal.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cucumber" : {
+            "url" : "git@github.com:Jimdo/cucumber.git",
+	    "enable-poll-updates" : false
+        },
+
+        "vagrant-veewee-puppet-skeleton" : {
+            "url" : "git@github.com:Jimdo/vagrant-veewee-puppet-skeleton.git",
+	    "enable-poll-updates" : false
+        },
+
+        "python-munin" : {
+            "url" : "git@github.com:Jimdo/python-munin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-graphite-web" : {
+            "url" : "git@github.com:Jimdo/jimdo-graphite-web.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gdash" : {
+            "url" : "git@github.com:Jimdo/gdash.git",
+	    "enable-poll-updates" : false
+        },
+
+        "pingdom-client" : {
+            "url" : "git@github.com:Jimdo/pingdom-client.git",
+	    "enable-poll-updates" : false
+        },
+
+        "geordi" : {
+            "url" : "git@github.com:Jimdo/geordi.git",
+	    "enable-poll-updates" : false
+        },
+
+        "iPhone-App" : {
+            "url" : "git@github.com:Jimdo/iPhone-App.git",
+	    "enable-poll-updates" : false
+        },
+
+        "JimFlowPrint" : {
+            "url" : "git@github.com:Jimdo/JimFlowPrint.git",
+	    "enable-poll-updates" : false
+        },
+
+        "JimFlowKlopfer" : {
+            "url" : "git@github.com:Jimdo/JimFlowKlopfer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "JimFlowWall" : {
+            "url" : "git@github.com:Jimdo/JimFlowWall.git",
+	    "enable-poll-updates" : false
+        },
+
+        "vagrant-hosts" : {
+            "url" : "git@github.com:Jimdo/vagrant-hosts.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ghost" : {
+            "url" : "git@github.com:Jimdo/ghost.git",
+	    "enable-poll-updates" : false
+        },
+
+        "watir-webdriver" : {
+            "url" : "git@github.com:Jimdo/watir-webdriver.git",
+	    "enable-poll-updates" : false
+        },
+
+        "logster" : {
+            "url" : "git@github.com:Jimdo/logster.git",
+	    "enable-poll-updates" : false
+        },
+
+        "TestDataBuilder" : {
+            "url" : "git@github.com:Jimdo/TestDataBuilder.git",
+	    "enable-poll-updates" : false
+        },
+
+        "tidy-html5" : {
+            "url" : "git@github.com:Jimdo/tidy-html5.git",
+	    "enable-poll-updates" : false
+        },
+
+        "JimFlowCam" : {
+            "url" : "git@github.com:Jimdo/JimFlowCam.git",
+	    "enable-poll-updates" : false
+        },
+
+        "Simple-Chrome-Extension-Content-Script-Skeleton" : {
+            "url" : "git@github.com:Jimdo/Simple-Chrome-Extension-Content-Script-Skeleton.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-duplicity" : {
+            "url" : "git@github.com:Jimdo/puppet-duplicity.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ssh" : {
+            "url" : "git@github.com:Jimdo/ssh.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-profiler" : {
+            "url" : "git@github.com:Jimdo/puppet-profiler.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppetlabs-apt" : {
+            "url" : "git@github.com:Jimdo/puppetlabs-apt.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppetlabs-stdlib" : {
+            "url" : "git@github.com:Jimdo/puppetlabs-stdlib.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-trocla" : {
+            "url" : "git@github.com:Jimdo/puppet-trocla.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-postgresql" : {
+            "url" : "git@github.com:Jimdo/puppet-postgresql.git",
+	    "enable-poll-updates" : false
+        },
+
+        "rspec-puppet" : {
+            "url" : "git@github.com:Jimdo/rspec-puppet.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nagios-api" : {
+            "url" : "git@github.com:Jimdo/nagios-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-percona" : {
+            "url" : "git@github.com:Jimdo/puppet-percona.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-raid" : {
+            "url" : "git@github.com:Jimdo/puppet-raid.git",
+	    "enable-poll-updates" : false
+        },
+
+        "MfG" : {
+            "url" : "git@github.com:Jimdo/MfG.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jenkins-cloudformation-plugin" : {
+            "url" : "git@github.com:Jimdo/jenkins-cloudformation-plugin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "capybara-webkit" : {
+            "url" : "git@github.com:Jimdo/capybara-webkit.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-jenkins" : {
+            "url" : "git@github.com:Jimdo/puppet-jenkins.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppetlabs_spec_helper" : {
+            "url" : "git@github.com:Jimdo/puppetlabs_spec_helper.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppetlabs-mysql" : {
+            "url" : "git@github.com:Jimdo/puppetlabs-mysql.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-mysql" : {
+            "url" : "git@github.com:Jimdo/puppet-mysql.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-augeas" : {
+            "url" : "git@github.com:Jimdo/puppet-augeas.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppetlabs-limits" : {
+            "url" : "git@github.com:Jimdo/puppetlabs-limits.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jasmine-headless-webkit" : {
+            "url" : "git@github.com:Jimdo/jasmine-headless-webkit.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-newrelic" : {
+            "url" : "git@github.com:Jimdo/puppet-newrelic.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-puppetdbquery" : {
+            "url" : "git@github.com:Jimdo/puppet-puppetdbquery.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-concat" : {
+            "url" : "git@github.com:Jimdo/puppet-concat.git",
+	    "enable-poll-updates" : false
+        },
+
+        "squarepulse" : {
+            "url" : "git@github.com:Jimdo/squarepulse.git",
+	    "enable-poll-updates" : false
+        },
+
+        "php-src" : {
+            "url" : "git@github.com:Jimdo/php-src.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppetlabs-vcsrepo" : {
+            "url" : "git@github.com:Jimdo/puppetlabs-vcsrepo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-utccron" : {
+            "url" : "git@github.com:Jimdo/puppet-utccron.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-check_logfile" : {
+            "url" : "git@github.com:Jimdo/puppet-check_logfile.git",
+	    "enable-poll-updates" : false
+        },
+
+        "aws-sdk-ruby" : {
+            "url" : "git@github.com:Jimdo/aws-sdk-ruby.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet" : {
+            "url" : "git@github.com:Jimdo/puppet.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-module-couchdb" : {
+            "url" : "git@github.com:Jimdo/puppet-module-couchdb.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-check_debsums" : {
+            "url" : "git@github.com:Jimdo/puppet-check_debsums.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-debmirror" : {
+            "url" : "git@github.com:Jimdo/puppet-debmirror.git",
+	    "enable-poll-updates" : false
+        },
+
+        "delivery_boy" : {
+            "url" : "git@github.com:Jimdo/delivery_boy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "hubot" : {
+            "url" : "git@github.com:Jimdo/hubot.git",
+	    "enable-poll-updates" : false
+        },
+
+        "mcollective-vagrant" : {
+            "url" : "git@github.com:Jimdo/mcollective-vagrant.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data" : {
+            "url" : "git@github.com:Jimdo/data.git",
+	    "enable-poll-updates" : false
+        },
+
+        "carbon" : {
+            "url" : "git@github.com:Jimdo/carbon.git",
+	    "enable-poll-updates" : false
+        },
+
+        "pageimporter" : {
+            "url" : "git@github.com:Jimdo/pageimporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "graphite-web" : {
+            "url" : "git@github.com:Jimdo/graphite-web.git",
+	    "enable-poll-updates" : false
+        },
+
+        "java-api-wrapper" : {
+            "url" : "git@github.com:Jimdo/java-api-wrapper.git",
+	    "enable-poll-updates" : false
+        },
+
+        "configuration-management" : {
+            "url" : "git@github.com:Jimdo/configuration-management.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thrift-api-readonly" : {
+            "url" : "git@github.com:Jimdo/thrift-api-readonly.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-skeleton" : {
+            "url" : "git@github.com:Jimdo/puppet-skeleton.git",
+	    "enable-poll-updates" : false
+        },
+
+        "naked-lunch" : {
+            "url" : "git@github.com:Jimdo/naked-lunch.git",
+	    "enable-poll-updates" : false
+        },
+
+        "templates" : {
+            "url" : "git@github.com:Jimdo/templates.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thrift-api-ruby" : {
+            "url" : "git@github.com:Jimdo/thrift-api-ruby.git",
+	    "enable-poll-updates" : false
+        },
+
+        "website-creation" : {
+            "url" : "git@github.com:Jimdo/website-creation.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thrift-api-python" : {
+            "url" : "git@github.com:Jimdo/thrift-api-python.git",
+	    "enable-poll-updates" : false
+        },
+
+        "periodicnoise" : {
+            "url" : "git@github.com:Jimdo/periodicnoise.git",
+	    "enable-poll-updates" : false
+        },
+
+        "signup-api-penetration" : {
+            "url" : "git@github.com:Jimdo/signup-api-penetration.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thrift-api" : {
+            "url" : "git@github.com:Jimdo/thrift-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-s3cmd" : {
+            "url" : "git@github.com:Jimdo/puppet-s3cmd.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nagios2trac" : {
+            "url" : "git@github.com:Jimdo/nagios2trac.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ec2-wirwissenesnicht" : {
+            "url" : "git@github.com:Jimdo/ec2-wirwissenesnicht.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thrift-api-php" : {
+            "url" : "git@github.com:Jimdo/thrift-api-php.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thrift-api-cocoa" : {
+            "url" : "git@github.com:Jimdo/thrift-api-cocoa.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thrift-lib-mirror" : {
+            "url" : "git@github.com:Jimdo/thrift-lib-mirror.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gosa" : {
+            "url" : "git@github.com:Jimdo/gosa.git",
+	    "enable-poll-updates" : false
+        },
+
+        "api-router" : {
+            "url" : "git@github.com:Jimdo/api-router.git",
+	    "enable-poll-updates" : false
+        },
+
+        "lc.jimdo-head-backup" : {
+            "url" : "git@github.com:Jimdo/lc.jimdo-head-backup.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-beanstalkd" : {
+            "url" : "git@github.com:Jimdo/puppet-beanstalkd.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-reprepro" : {
+            "url" : "git@github.com:Jimdo/puppet-reprepro.git",
+	    "enable-poll-updates" : false
+        },
+
+        "mac-inventory-service" : {
+            "url" : "git@github.com:Jimdo/mac-inventory-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "pagerduty-nagios-pl" : {
+            "url" : "git@github.com:Jimdo/pagerduty-nagios-pl.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-periodicnoise" : {
+            "url" : "git@github.com:Jimdo/puppet-periodicnoise.git",
+	    "enable-poll-updates" : false
+        },
+
+        "check-logfiles" : {
+            "url" : "git@github.com:Jimdo/check-logfiles.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-nagios2trac" : {
+            "url" : "git@github.com:Jimdo/puppet-nagios2trac.git",
+	    "enable-poll-updates" : false
+        },
+
+        "checklogfile" : {
+            "url" : "git@github.com:Jimdo/checklogfile.git",
+	    "enable-poll-updates" : false
+        },
+
+        "shop-calculation-service" : {
+            "url" : "git@github.com:Jimdo/shop-calculation-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "shop-big-s" : {
+            "url" : "git@github.com:Jimdo/shop-big-s.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dwh" : {
+            "url" : "git@github.com:Jimdo/dwh.git",
+	    "enable-poll-updates" : false
+        },
+
+        "tracking" : {
+            "url" : "git@github.com:Jimdo/tracking.git",
+	    "enable-poll-updates" : false
+        },
+
+        "admin-server-scripts" : {
+            "url" : "git@github.com:Jimdo/admin-server-scripts.git",
+	    "enable-poll-updates" : false
+        },
+
+        "admin-mgmt-scripts" : {
+            "url" : "git@github.com:Jimdo/admin-mgmt-scripts.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-sshuserconfig" : {
+            "url" : "git@github.com:Jimdo/puppet-sshuserconfig.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cloudformation" : {
+            "url" : "git@github.com:Jimdo/cloudformation.git",
+	    "enable-poll-updates" : false
+        },
+
+        "infra-risikobericht" : {
+            "url" : "git@github.com:Jimdo/infra-risikobericht.git",
+	    "enable-poll-updates" : false
+        },
+
+        "check_graphite" : {
+            "url" : "git@github.com:Jimdo/check_graphite.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-rspec-puppet-helpers" : {
+            "url" : "git@github.com:Jimdo/jimdo-rspec-puppet-helpers.git",
+	    "enable-poll-updates" : false
+        },
+
+        "agile-documentation" : {
+            "url" : "git@github.com:Jimdo/agile-documentation.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-autodns-client" : {
+            "url" : "git@github.com:Jimdo/creator-autodns-client.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paymentteam-doctrine" : {
+            "url" : "git@github.com:Jimdo/paymentteam-doctrine.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paymentteam-utility" : {
+            "url" : "git@github.com:Jimdo/paymentteam-utility.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paymentteam-zuora-mirror" : {
+            "url" : "git@github.com:Jimdo/paymentteam-zuora-mirror.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paymentteam-zuora" : {
+            "url" : "git@github.com:Jimdo/paymentteam-zuora.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paymentteam-test" : {
+            "url" : "git@github.com:Jimdo/paymentteam-test.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo" : {
+            "url" : "git@github.com:Jimdo/jimdo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "adminstuff" : {
+            "url" : "git@github.com:Jimdo/adminstuff.git",
+	    "enable-poll-updates" : false
+        },
+
+        "PMAs" : {
+            "url" : "git@github.com:Jimdo/PMAs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "tractic" : {
+            "url" : "git@github.com:Jimdo/tractic.git",
+	    "enable-poll-updates" : false
+        },
+
+        "android" : {
+            "url" : "git@github.com:Jimdo/android.git",
+	    "enable-poll-updates" : false
+        },
+
+        "admin-documentation" : {
+            "url" : "git@github.com:Jimdo/admin-documentation.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sns-sqs-eval" : {
+            "url" : "git@github.com:Jimdo/sns-sqs-eval.git",
+	    "enable-poll-updates" : false
+        },
+
+        "spam-report-bookmarklet" : {
+            "url" : "git@github.com:Jimdo/spam-report-bookmarklet.git",
+	    "enable-poll-updates" : false
+        },
+
+        "templategrid" : {
+            "url" : "git@github.com:Jimdo/templategrid.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-module-supervisor" : {
+            "url" : "git@github.com:Jimdo/puppet-module-supervisor.git",
+	    "enable-poll-updates" : false
+        },
+
+        "LampCMS" : {
+            "url" : "git@github.com:Jimdo/LampCMS.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dummies" : {
+            "url" : "git@github.com:Jimdo/dummies.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppetlabs-inifile" : {
+            "url" : "git@github.com:Jimdo/puppetlabs-inifile.git",
+	    "enable-poll-updates" : false
+        },
+
+        "heka" : {
+            "url" : "git@github.com:Jimdo/heka.git",
+	    "enable-poll-updates" : false
+        },
+
+        "caret" : {
+            "url" : "git@github.com:Jimdo/caret.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-cleverbridge-api" : {
+            "url" : "git@github.com:Jimdo/creator-cleverbridge-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "closure-compiler-service" : {
+            "url" : "git@github.com:Jimdo/closure-compiler-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "packer-templates" : {
+            "url" : "git@github.com:Jimdo/packer-templates.git",
+	    "enable-poll-updates" : false
+        },
+
+        "switchconfig" : {
+            "url" : "git@github.com:Jimdo/switchconfig.git",
+	    "enable-poll-updates" : false
+        },
+
+        "doctrine-common" : {
+            "url" : "git@github.com:Jimdo/doctrine-common.git",
+	    "enable-poll-updates" : false
+        },
+
+        "doctrine-cache" : {
+            "url" : "git@github.com:Jimdo/doctrine-cache.git",
+	    "enable-poll-updates" : false
+        },
+
+        "templess" : {
+            "url" : "git@github.com:Jimdo/templess.git",
+	    "enable-poll-updates" : false
+        },
+
+        "mobile-boxen" : {
+            "url" : "git@github.com:Jimdo/mobile-boxen.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-labs" : {
+            "url" : "git@github.com:Jimdo/data-labs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-dropbox" : {
+            "url" : "git@github.com:Jimdo/puppet-dropbox.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jenkins_slave_phpunit" : {
+            "url" : "git@github.com:Jimdo/jenkins_slave_phpunit.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-domain-cleanup" : {
+            "url" : "git@github.com:Jimdo/creator-domain-cleanup.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-nodejs" : {
+            "url" : "git@github.com:Jimdo/puppet-nodejs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "bowser" : {
+            "url" : "git@github.com:Jimdo/bowser.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jQuery-ajaxTransport-XDomainRequest" : {
+            "url" : "git@github.com:Jimdo/jQuery-ajaxTransport-XDomainRequest.git",
+	    "enable-poll-updates" : false
+        },
+
+        "module-to-thrift-struct-converter" : {
+            "url" : "git@github.com:Jimdo/module-to-thrift-struct-converter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "UI-modules" : {
+            "url" : "git@github.com:Jimdo/UI-modules.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nagios-plugins" : {
+            "url" : "git@github.com:Jimdo/nagios-plugins.git",
+	    "enable-poll-updates" : false
+        },
+
+        "website-classification-tool" : {
+            "url" : "git@github.com:Jimdo/website-classification-tool.git",
+	    "enable-poll-updates" : false
+        },
+
+        "blitline_screenshot" : {
+            "url" : "git@github.com:Jimdo/blitline_screenshot.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-local-etc" : {
+            "url" : "git@github.com:Jimdo/jimdo-local-etc.git",
+	    "enable-poll-updates" : false
+        },
+
+        "phpredis" : {
+            "url" : "git@github.com:Jimdo/phpredis.git",
+	    "enable-poll-updates" : false
+        },
+
+        "packer" : {
+            "url" : "git@github.com:Jimdo/packer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nagios-cloudwatch-plugin" : {
+            "url" : "git@github.com:Jimdo/nagios-cloudwatch-plugin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-hiera" : {
+            "url" : "git@github.com:Jimdo/puppet-hiera.git",
+	    "enable-poll-updates" : false
+        },
+
+        "csscount" : {
+            "url" : "git@github.com:Jimdo/csscount.git",
+	    "enable-poll-updates" : false
+        },
+
+        "vim-spec-runner" : {
+            "url" : "git@github.com:Jimdo/vim-spec-runner.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gradle-apt-plugin" : {
+            "url" : "git@github.com:Jimdo/gradle-apt-plugin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "beanstalkd" : {
+            "url" : "git@github.com:Jimdo/beanstalkd.git",
+	    "enable-poll-updates" : false
+        },
+
+        "solr-debian-package" : {
+            "url" : "git@github.com:Jimdo/solr-debian-package.git",
+	    "enable-poll-updates" : false
+        },
+
+        "php5" : {
+            "url" : "git@github.com:Jimdo/php5.git",
+	    "enable-poll-updates" : false
+        },
+
+        "shop-customer-service" : {
+            "url" : "git@github.com:Jimdo/shop-customer-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppetlabs-apache" : {
+            "url" : "git@github.com:Jimdo/puppetlabs-apache.git",
+	    "enable-poll-updates" : false
+        },
+
+        "translation_phraseapp" : {
+            "url" : "git@github.com:Jimdo/translation_phraseapp.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dmp_fake" : {
+            "url" : "git@github.com:Jimdo/dmp_fake.git",
+	    "enable-poll-updates" : false
+        },
+
+        "minify" : {
+            "url" : "git@github.com:Jimdo/minify.git",
+	    "enable-poll-updates" : false
+        },
+
+        "buildbox" : {
+            "url" : "git@github.com:Jimdo/buildbox.git",
+	    "enable-poll-updates" : false
+        },
+
+        "hiera-aws" : {
+            "url" : "git@github.com:Jimdo/hiera-aws.git",
+	    "enable-poll-updates" : false
+        },
+
+        "bootstrap-bower" : {
+            "url" : "git@github.com:Jimdo/bootstrap-bower.git",
+	    "enable-poll-updates" : false
+        },
+
+        "bower-angular" : {
+            "url" : "git@github.com:Jimdo/bower-angular.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jquery" : {
+            "url" : "git@github.com:Jimdo/jquery.git",
+	    "enable-poll-updates" : false
+        },
+
+        "angular-slider" : {
+            "url" : "git@github.com:Jimdo/angular-slider.git",
+	    "enable-poll-updates" : false
+        },
+
+        "angular-bootstrap-colorpicker" : {
+            "url" : "git@github.com:Jimdo/angular-bootstrap-colorpicker.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-api" : {
+            "url" : "git@github.com:Jimdo/data-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "pytrac" : {
+            "url" : "git@github.com:Jimdo/pytrac.git",
+	    "enable-poll-updates" : false
+        },
+
+        "rprtr" : {
+            "url" : "git@github.com:Jimdo/rprtr.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ec2-plugin" : {
+            "url" : "git@github.com:Jimdo/ec2-plugin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nprogress" : {
+            "url" : "git@github.com:Jimdo/nprogress.git",
+	    "enable-poll-updates" : false
+        },
+
+        "angular-fontselect" : {
+            "url" : "git@github.com:Jimdo/angular-fontselect.git",
+	    "enable-poll-updates" : false
+        },
+
+        "router" : {
+            "url" : "git@github.com:Jimdo/router.git",
+	    "enable-poll-updates" : false
+        },
+
+        "email-templates" : {
+            "url" : "git@github.com:Jimdo/email-templates.git",
+	    "enable-poll-updates" : false
+        },
+
+        "universal-tracker-js" : {
+            "url" : "git@github.com:Jimdo/universal-tracker-js.git",
+	    "enable-poll-updates" : false
+        },
+
+        "librato-rake-deploytrack" : {
+            "url" : "git@github.com:Jimdo/librato-rake-deploytrack.git",
+	    "enable-poll-updates" : false
+        },
+
+        "please.js" : {
+            "url" : "git@github.com:Jimdo/please.js.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ubersicht" : {
+            "url" : "git@github.com:Jimdo/ubersicht.git",
+	    "enable-poll-updates" : false
+        },
+
+        "angular-bootstrap-colorpicker-test-env" : {
+            "url" : "git@github.com:Jimdo/angular-bootstrap-colorpicker-test-env.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-spawn-fcgi" : {
+            "url" : "git@github.com:Jimdo/puppet-spawn-fcgi.git",
+	    "enable-poll-updates" : false
+        },
+
+        "angular-directive-seed" : {
+            "url" : "git@github.com:Jimdo/angular-directive-seed.git",
+	    "enable-poll-updates" : false
+        },
+
+        "angular-spectrum-colorpicker" : {
+            "url" : "git@github.com:Jimdo/angular-spectrum-colorpicker.git",
+	    "enable-poll-updates" : false
+        },
+
+        "heroboard" : {
+            "url" : "git@github.com:Jimdo/heroboard.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimphle-bootstrap" : {
+            "url" : "git@github.com:Jimdo/jimphle-bootstrap.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimphle-data-structure" : {
+            "url" : "git@github.com:Jimdo/jimphle-data-structure.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimphle-messaging" : {
+            "url" : "git@github.com:Jimdo/jimphle-messaging.git",
+	    "enable-poll-updates" : false
+        },
+
+        "spectrum" : {
+            "url" : "git@github.com:Jimdo/spectrum.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-module-collectd" : {
+            "url" : "git@github.com:Jimdo/puppet-module-collectd.git",
+	    "enable-poll-updates" : false
+        },
+
+        "hoopak" : {
+            "url" : "git@github.com:Jimdo/hoopak.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dmp-shared-components" : {
+            "url" : "git@github.com:Jimdo/dmp-shared-components.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-build-status" : {
+            "url" : "git@github.com:Jimdo/jimdo-build-status.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-stackdriver-agent" : {
+            "url" : "git@github.com:Jimdo/puppet-stackdriver-agent.git",
+	    "enable-poll-updates" : false
+        },
+
+        "pedeefy" : {
+            "url" : "git@github.com:Jimdo/pedeefy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "angular-fontselect-typesquare" : {
+            "url" : "git@github.com:Jimdo/angular-fontselect-typesquare.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thrift-gem" : {
+            "url" : "git@github.com:Jimdo/thrift-gem.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-elasticsearch" : {
+            "url" : "git@github.com:Jimdo/puppet-elasticsearch.git",
+	    "enable-poll-updates" : false
+        },
+
+        "babelfish" : {
+            "url" : "git@github.com:Jimdo/babelfish.git",
+	    "enable-poll-updates" : false
+        },
+
+        "angular-i18n" : {
+            "url" : "git@github.com:Jimdo/angular-i18n.git",
+	    "enable-poll-updates" : false
+        },
+
+        "graylog2_exceptions" : {
+            "url" : "git@github.com:Jimdo/graylog2_exceptions.git",
+	    "enable-poll-updates" : false
+        },
+
+        "bootstrap-vz" : {
+            "url" : "git@github.com:Jimdo/bootstrap-vz.git",
+	    "enable-poll-updates" : false
+        },
+
+        "fresh_cress" : {
+            "url" : "git@github.com:Jimdo/fresh_cress.git",
+	    "enable-poll-updates" : false
+        },
+
+        "librato-sidekiq" : {
+            "url" : "git@github.com:Jimdo/librato-sidekiq.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-freight" : {
+            "url" : "git@github.com:Jimdo/puppet-freight.git",
+	    "enable-poll-updates" : false
+        },
+
+        "momod" : {
+            "url" : "git@github.com:Jimdo/momod.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-brunch" : {
+            "url" : "git@github.com:Jimdo/jimdo-brunch.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gulp-intermediate-dest" : {
+            "url" : "git@github.com:Jimdo/gulp-intermediate-dest.git",
+	    "enable-poll-updates" : false
+        },
+
+        "devblog" : {
+            "url" : "git@github.com:Jimdo/devblog.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gulp-uglify" : {
+            "url" : "git@github.com:Jimdo/gulp-uglify.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gulp-watch" : {
+            "url" : "git@github.com:Jimdo/gulp-watch.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gulp-minify-css" : {
+            "url" : "git@github.com:Jimdo/gulp-minify-css.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gulp-debug" : {
+            "url" : "git@github.com:Jimdo/gulp-debug.git",
+	    "enable-poll-updates" : false
+        },
+
+        "katje-view" : {
+            "url" : "git@github.com:Jimdo/katje-view.git",
+	    "enable-poll-updates" : false
+        },
+
+        "beanstalkd-squeeze" : {
+            "url" : "git@github.com:Jimdo/beanstalkd-squeeze.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimseo" : {
+            "url" : "git@github.com:Jimdo/jimseo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-graylog2" : {
+            "url" : "git@github.com:Jimdo/puppet-graylog2.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-stackdriver" : {
+            "url" : "git@github.com:Jimdo/puppet-stackdriver.git",
+	    "enable-poll-updates" : false
+        },
+
+        "office-cloudformation" : {
+            "url" : "git@github.com:Jimdo/office-cloudformation.git",
+	    "enable-poll-updates" : false
+        },
+
+        "yepnope.js" : {
+            "url" : "git@github.com:Jimdo/yepnope.js.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimseosite" : {
+            "url" : "git@github.com:Jimdo/jimseosite.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-boilerplate" : {
+            "url" : "git@github.com:Jimdo/template-boilerplate.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-checkoutbot" : {
+            "url" : "git@github.com:Jimdo/creator-checkoutbot.git",
+	    "enable-poll-updates" : false
+        },
+
+        "freight" : {
+            "url" : "git@github.com:Jimdo/freight.git",
+	    "enable-poll-updates" : false
+        },
+
+        "JMDPods" : {
+            "url" : "git@github.com:Jimdo/JMDPods.git",
+	    "enable-poll-updates" : false
+        },
+
+        "Stash" : {
+            "url" : "git@github.com:Jimdo/Stash.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paymentteam-support-dashboard" : {
+            "url" : "git@github.com:Jimdo/paymentteam-support-dashboard.git",
+	    "enable-poll-updates" : false
+        },
+
+        "office-stuff" : {
+            "url" : "git@github.com:Jimdo/office-stuff.git",
+	    "enable-poll-updates" : false
+        },
+
+        "acli" : {
+            "url" : "git@github.com:Jimdo/acli.git",
+	    "enable-poll-updates" : false
+        },
+
+        "headjs" : {
+            "url" : "git@github.com:Jimdo/headjs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "on-call-forwarding" : {
+            "url" : "git@github.com:Jimdo/on-call-forwarding.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-san-francisco" : {
+            "url" : "git@github.com:Jimdo/template-san-francisco.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-barcelona" : {
+            "url" : "git@github.com:Jimdo/template-barcelona.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-berlin" : {
+            "url" : "git@github.com:Jimdo/template-berlin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-capetown" : {
+            "url" : "git@github.com:Jimdo/template-capetown.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-chicago" : {
+            "url" : "git@github.com:Jimdo/template-chicago.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-copenhagen" : {
+            "url" : "git@github.com:Jimdo/template-copenhagen.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-dubai" : {
+            "url" : "git@github.com:Jimdo/template-dubai.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-dublin" : {
+            "url" : "git@github.com:Jimdo/template-dublin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-hongkong" : {
+            "url" : "git@github.com:Jimdo/template-hongkong.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-reykjavik" : {
+            "url" : "git@github.com:Jimdo/template-reykjavik.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-madrid" : {
+            "url" : "git@github.com:Jimdo/template-madrid.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-malaga" : {
+            "url" : "git@github.com:Jimdo/template-malaga.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-melbourne" : {
+            "url" : "git@github.com:Jimdo/template-melbourne.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-milano" : {
+            "url" : "git@github.com:Jimdo/template-milano.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-new-york" : {
+            "url" : "git@github.com:Jimdo/template-new-york.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-paris-old" : {
+            "url" : "git@github.com:Jimdo/template-paris-old.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-prague" : {
+            "url" : "git@github.com:Jimdo/template-prague.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-riga" : {
+            "url" : "git@github.com:Jimdo/template-riga.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-rio-de-janeiro" : {
+            "url" : "git@github.com:Jimdo/template-rio-de-janeiro.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-shanghai" : {
+            "url" : "git@github.com:Jimdo/template-shanghai.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-singapore" : {
+            "url" : "git@github.com:Jimdo/template-singapore.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-st-petersburg" : {
+            "url" : "git@github.com:Jimdo/template-st-petersburg.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-sydney" : {
+            "url" : "git@github.com:Jimdo/template-sydney.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-verona" : {
+            "url" : "git@github.com:Jimdo/template-verona.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-vienna" : {
+            "url" : "git@github.com:Jimdo/template-vienna.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-zurich" : {
+            "url" : "git@github.com:Jimdo/template-zurich.git",
+	    "enable-poll-updates" : false
+        },
+
+        "hipsaint" : {
+            "url" : "git@github.com:Jimdo/hipsaint.git",
+	    "enable-poll-updates" : false
+        },
+
+        "node-design-proxy" : {
+            "url" : "git@github.com:Jimdo/node-design-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "librato-node" : {
+            "url" : "git@github.com:Jimdo/librato-node.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-cancun" : {
+            "url" : "git@github.com:Jimdo/template-cancun.git",
+	    "enable-poll-updates" : false
+        },
+
+        "infrasupportsnippets" : {
+            "url" : "git@github.com:Jimdo/infrasupportsnippets.git",
+	    "enable-poll-updates" : false
+        },
+
+        "lein-scrooge" : {
+            "url" : "git@github.com:Jimdo/lein-scrooge.git",
+	    "enable-poll-updates" : false
+        },
+
+        "subscription_dashboard" : {
+            "url" : "git@github.com:Jimdo/subscription_dashboard.git",
+	    "enable-poll-updates" : false
+        },
+
+        "mac-exchange" : {
+            "url" : "git@github.com:Jimdo/mac-exchange.git",
+	    "enable-poll-updates" : false
+        },
+
+        "Jimdo-Trac-Links-Chrome-Extension" : {
+            "url" : "git@github.com:Jimdo/Jimdo-Trac-Links-Chrome-Extension.git",
+	    "enable-poll-updates" : false
+        },
+
+        "helpdesk-ticket-language-detection" : {
+            "url" : "git@github.com:Jimdo/helpdesk-ticket-language-detection.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-guide" : {
+            "url" : "git@github.com:Jimdo/jimdo-guide.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-miami" : {
+            "url" : "git@github.com:Jimdo/template-miami.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-daemons" : {
+            "url" : "git@github.com:Jimdo/jimdo-daemons.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-hamburg" : {
+            "url" : "git@github.com:Jimdo/template-hamburg.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-rome" : {
+            "url" : "git@github.com:Jimdo/template-rome.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-helsinki" : {
+            "url" : "git@github.com:Jimdo/template-helsinki.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paymentteam-payment-provider-router" : {
+            "url" : "git@github.com:Jimdo/paymentteam-payment-provider-router.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-guide-steps" : {
+            "url" : "git@github.com:Jimdo/jimdo-guide-steps.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-rbenv" : {
+            "url" : "git@github.com:Jimdo/puppet-rbenv.git",
+	    "enable-poll-updates" : false
+        },
+
+        "stunnel" : {
+            "url" : "git@github.com:Jimdo/stunnel.git",
+	    "enable-poll-updates" : false
+        },
+
+        "landingpages" : {
+            "url" : "git@github.com:Jimdo/landingpages.git",
+	    "enable-poll-updates" : false
+        },
+
+        "CM-helpers" : {
+            "url" : "git@github.com:Jimdo/CM-helpers.git",
+	    "enable-poll-updates" : false
+        },
+
+        "draggabilly" : {
+            "url" : "git@github.com:Jimdo/draggabilly.git",
+	    "enable-poll-updates" : false
+        },
+
+        "angular-draggabilly" : {
+            "url" : "git@github.com:Jimdo/angular-draggabilly.git",
+	    "enable-poll-updates" : false
+        },
+
+        "unattended-upgrades" : {
+            "url" : "git@github.com:Jimdo/unattended-upgrades.git",
+	    "enable-poll-updates" : false
+        },
+
+        "web-templates" : {
+            "url" : "git@github.com:Jimdo/web-templates.git",
+	    "enable-poll-updates" : false
+        },
+
+        "bower-angular-translate-loader-partial" : {
+            "url" : "git@github.com:Jimdo/bower-angular-translate-loader-partial.git",
+	    "enable-poll-updates" : false
+        },
+
+        "partner-dashboard" : {
+            "url" : "git@github.com:Jimdo/partner-dashboard.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-sysctl" : {
+            "url" : "git@github.com:Jimdo/puppet-sysctl.git",
+	    "enable-poll-updates" : false
+        },
+
+        "flashplugin-nonfree" : {
+            "url" : "git@github.com:Jimdo/flashplugin-nonfree.git",
+	    "enable-poll-updates" : false
+        },
+
+        "garbage-collect-ec2-instances-in-puppet-db" : {
+            "url" : "git@github.com:Jimdo/garbage-collect-ec2-instances-in-puppet-db.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cloudprint" : {
+            "url" : "git@github.com:Jimdo/cloudprint.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-kobe" : {
+            "url" : "git@github.com:Jimdo/template-kobe.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-cairo" : {
+            "url" : "git@github.com:Jimdo/template-cairo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-istanbul" : {
+            "url" : "git@github.com:Jimdo/template-istanbul.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-osaka" : {
+            "url" : "git@github.com:Jimdo/template-osaka.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-seoul" : {
+            "url" : "git@github.com:Jimdo/template-seoul.git",
+	    "enable-poll-updates" : false
+        },
+
+        "r10k" : {
+            "url" : "git@github.com:Jimdo/r10k.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-r10k" : {
+            "url" : "git@github.com:Jimdo/puppet-r10k.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimlib" : {
+            "url" : "git@github.com:Jimdo/jimlib.git",
+	    "enable-poll-updates" : false
+        },
+
+        "troposphere" : {
+            "url" : "git@github.com:Jimdo/troposphere.git",
+	    "enable-poll-updates" : false
+        },
+
+        "devkit" : {
+            "url" : "git@github.com:Jimdo/devkit.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dmp-template-validator-js" : {
+            "url" : "git@github.com:Jimdo/dmp-template-validator-js.git",
+	    "enable-poll-updates" : false
+        },
+
+        "facter" : {
+            "url" : "git@github.com:Jimdo/facter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thrift" : {
+            "url" : "git@github.com:Jimdo/thrift.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paymentteam-payment-provider-stripe" : {
+            "url" : "git@github.com:Jimdo/paymentteam-payment-provider-stripe.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paymentteam-payment-provider-request-parser" : {
+            "url" : "git@github.com:Jimdo/paymentteam-payment-provider-request-parser.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dmp-preview-renderer-js" : {
+            "url" : "git@github.com:Jimdo/dmp-preview-renderer-js.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-lima" : {
+            "url" : "git@github.com:Jimdo/template-lima.git",
+	    "enable-poll-updates" : false
+        },
+
+        "kaesewalze" : {
+            "url" : "git@github.com:Jimdo/kaesewalze.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nsca" : {
+            "url" : "git@github.com:Jimdo/nsca.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-atlanta" : {
+            "url" : "git@github.com:Jimdo/template-atlanta.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-bern" : {
+            "url" : "git@github.com:Jimdo/template-bern.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-brasilia" : {
+            "url" : "git@github.com:Jimdo/template-brasilia.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-brussels" : {
+            "url" : "git@github.com:Jimdo/template-brussels.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-cannes" : {
+            "url" : "git@github.com:Jimdo/template-cannes.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-caribe" : {
+            "url" : "git@github.com:Jimdo/template-caribe.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-havana" : {
+            "url" : "git@github.com:Jimdo/template-havana.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-lagos" : {
+            "url" : "git@github.com:Jimdo/template-lagos.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-lille" : {
+            "url" : "git@github.com:Jimdo/template-lille.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-madagascar" : {
+            "url" : "git@github.com:Jimdo/template-madagascar.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-manila" : {
+            "url" : "git@github.com:Jimdo/template-manila.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-nantes" : {
+            "url" : "git@github.com:Jimdo/template-nantes.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-wellington" : {
+            "url" : "git@github.com:Jimdo/template-wellington.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimflow-github-chrome" : {
+            "url" : "git@github.com:Jimdo/jimflow-github-chrome.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jenkins" : {
+            "url" : "git@github.com:Jimdo/jenkins.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gulp-rev" : {
+            "url" : "git@github.com:Jimdo/gulp-rev.git",
+	    "enable-poll-updates" : false
+        },
+
+        "test_pull_requests_gem" : {
+            "url" : "git@github.com:Jimdo/test_pull_requests_gem.git",
+	    "enable-poll-updates" : false
+        },
+
+        "graylog2-puppet" : {
+            "url" : "git@github.com:Jimdo/graylog2-puppet.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimtool" : {
+            "url" : "git@github.com:Jimdo/jimtool.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-installer" : {
+            "url" : "git@github.com:Jimdo/puppet-installer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppetlabs-java" : {
+            "url" : "git@github.com:Jimdo/puppetlabs-java.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-up" : {
+            "url" : "git@github.com:Jimdo/jimdo-up.git",
+	    "enable-poll-updates" : false
+        },
+
+        "heka_plugins" : {
+            "url" : "git@github.com:Jimdo/heka_plugins.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-daemontools" : {
+            "url" : "git@github.com:Jimdo/puppet-daemontools.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-module-nscd" : {
+            "url" : "git@github.com:Jimdo/puppet-module-nscd.git",
+	    "enable-poll-updates" : false
+        },
+
+        "rackspace-autoconfig-provider" : {
+            "url" : "git@github.com:Jimdo/rackspace-autoconfig-provider.git",
+	    "enable-poll-updates" : false
+        },
+
+        "homebrew-formulas" : {
+            "url" : "git@github.com:Jimdo/homebrew-formulas.git",
+	    "enable-poll-updates" : false
+        },
+
+        "godzilla" : {
+            "url" : "git@github.com:Jimdo/godzilla.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-reporting-selfservice" : {
+            "url" : "git@github.com:Jimdo/data-reporting-selfservice.git",
+	    "enable-poll-updates" : false
+        },
+
+        "hiera-puppet-helper" : {
+            "url" : "git@github.com:Jimdo/hiera-puppet-helper.git",
+	    "enable-poll-updates" : false
+        },
+
+        "flashing" : {
+            "url" : "git@github.com:Jimdo/flashing.git",
+	    "enable-poll-updates" : false
+        },
+
+        "angular-background-area" : {
+            "url" : "git@github.com:Jimdo/angular-background-area.git",
+	    "enable-poll-updates" : false
+        },
+
+        "bower-semver" : {
+            "url" : "git@github.com:Jimdo/bower-semver.git",
+	    "enable-poll-updates" : false
+        },
+
+        "Prototypes" : {
+            "url" : "git@github.com:Jimdo/Prototypes.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-buenos-aires" : {
+            "url" : "git@github.com:Jimdo/template-buenos-aires.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-provisioning" : {
+            "url" : "git@github.com:Jimdo/data-provisioning.git",
+	    "enable-poll-updates" : false
+        },
+
+        "heroku-buildpack-multi" : {
+            "url" : "git@github.com:Jimdo/heroku-buildpack-multi.git",
+	    "enable-poll-updates" : false
+        },
+
+        "heroku-buildpack-phantomjs" : {
+            "url" : "git@github.com:Jimdo/heroku-buildpack-phantomjs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jd-style-editor" : {
+            "url" : "git@github.com:Jimdo/jd-style-editor.git",
+	    "enable-poll-updates" : false
+        },
+
+        "rapampel" : {
+            "url" : "git@github.com:Jimdo/rapampel.git",
+	    "enable-poll-updates" : false
+        },
+
+        "aws-docker-ansible" : {
+            "url" : "git@github.com:Jimdo/aws-docker-ansible.git",
+	    "enable-poll-updates" : false
+        },
+
+        "job-dsl-plugin" : {
+            "url" : "git@github.com:Jimdo/job-dsl-plugin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-kpi-dashboard" : {
+            "url" : "git@github.com:Jimdo/data-kpi-dashboard.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-nginx" : {
+            "url" : "git@github.com:Jimdo/puppet-nginx.git",
+	    "enable-poll-updates" : false
+        },
+
+        "angular-file-uploader" : {
+            "url" : "git@github.com:Jimdo/angular-file-uploader.git",
+	    "enable-poll-updates" : false
+        },
+
+        "heroboard-next" : {
+            "url" : "git@github.com:Jimdo/heroboard-next.git",
+	    "enable-poll-updates" : false
+        },
+
+        "rds-migrator" : {
+            "url" : "git@github.com:Jimdo/rds-migrator.git",
+	    "enable-poll-updates" : false
+        },
+
+        "shop-issue-tracking-dummy" : {
+            "url" : "git@github.com:Jimdo/shop-issue-tracking-dummy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jd-style-update" : {
+            "url" : "git@github.com:Jimdo/jd-style-update.git",
+	    "enable-poll-updates" : false
+        },
+
+        "kickstarter-tool" : {
+            "url" : "git@github.com:Jimdo/kickstarter-tool.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-confd" : {
+            "url" : "git@github.com:Jimdo/puppet-confd.git",
+	    "enable-poll-updates" : false
+        },
+
+        "internetx-account-router" : {
+            "url" : "git@github.com:Jimdo/internetx-account-router.git",
+	    "enable-poll-updates" : false
+        },
+
+        "office-raspi" : {
+            "url" : "git@github.com:Jimdo/office-raspi.git",
+	    "enable-poll-updates" : false
+        },
+
+        "SimpleStorage" : {
+            "url" : "git@github.com:Jimdo/SimpleStorage.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-paris" : {
+            "url" : "git@github.com:Jimdo/template-paris.git",
+	    "enable-poll-updates" : false
+        },
+
+        "IFUnicodeURL" : {
+            "url" : "git@github.com:Jimdo/IFUnicodeURL.git",
+	    "enable-poll-updates" : false
+        },
+
+        "aws-sdk-php" : {
+            "url" : "git@github.com:Jimdo/aws-sdk-php.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cms-s3-moves" : {
+            "url" : "git@github.com:Jimdo/cms-s3-moves.git",
+	    "enable-poll-updates" : false
+        },
+
+        "grunt-protractor-webdriver-start" : {
+            "url" : "git@github.com:Jimdo/grunt-protractor-webdriver-start.git",
+	    "enable-poll-updates" : false
+        },
+
+        "responsive-template-hacks" : {
+            "url" : "git@github.com:Jimdo/responsive-template-hacks.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-with-submodules" : {
+            "url" : "git@github.com:Jimdo/template-with-submodules.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sqs-dead-letter-handling" : {
+            "url" : "git@github.com:Jimdo/sqs-dead-letter-handling.git",
+	    "enable-poll-updates" : false
+        },
+
+        "grunt-angular-toolbox" : {
+            "url" : "git@github.com:Jimdo/grunt-angular-toolbox.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-bordeaux" : {
+            "url" : "git@github.com:Jimdo/template-bordeaux.git",
+	    "enable-poll-updates" : false
+        },
+
+        "aws-rds-from-snapshot" : {
+            "url" : "git@github.com:Jimdo/aws-rds-from-snapshot.git",
+	    "enable-poll-updates" : false
+        },
+
+        "caracteriq-server" : {
+            "url" : "git@github.com:Jimdo/caracteriq-server.git",
+	    "enable-poll-updates" : false
+        },
+
+        "reseller-api-client" : {
+            "url" : "git@github.com:Jimdo/reseller-api-client.git",
+	    "enable-poll-updates" : false
+        },
+
+        "catwalk" : {
+            "url" : "git@github.com:Jimdo/catwalk.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ansible-modules-core" : {
+            "url" : "git@github.com:Jimdo/ansible-modules-core.git",
+	    "enable-poll-updates" : false
+        },
+
+        "go-sqlmock" : {
+            "url" : "git@github.com:Jimdo/go-sqlmock.git",
+	    "enable-poll-updates" : false
+        },
+
+        "activity-logger" : {
+            "url" : "git@github.com:Jimdo/activity-logger.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-icons" : {
+            "url" : "git@github.com:Jimdo/jimdo-icons.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-examples" : {
+            "url" : "git@github.com:Jimdo/jimdo-examples.git",
+	    "enable-poll-updates" : false
+        },
+
+        "caracteriq-php" : {
+            "url" : "git@github.com:Jimdo/caracteriq-php.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-logrotate" : {
+            "url" : "git@github.com:Jimdo/puppet-logrotate.git",
+	    "enable-poll-updates" : false
+        },
+
+        "connect-params" : {
+            "url" : "git@github.com:Jimdo/connect-params.git",
+	    "enable-poll-updates" : false
+        },
+
+        "repair-website-login-count-replication" : {
+            "url" : "git@github.com:Jimdo/repair-website-login-count-replication.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-billing-service" : {
+            "url" : "git@github.com:Jimdo/creator-billing-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "graylog2-input-s3" : {
+            "url" : "git@github.com:Jimdo/graylog2-input-s3.git",
+	    "enable-poll-updates" : false
+        },
+
+        "eilt" : {
+            "url" : "git@github.com:Jimdo/eilt.git",
+	    "enable-poll-updates" : false
+        },
+
+        "booster" : {
+            "url" : "git@github.com:Jimdo/booster.git",
+	    "enable-poll-updates" : false
+        },
+
+        "activity-persister" : {
+            "url" : "git@github.com:Jimdo/activity-persister.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ui-library" : {
+            "url" : "git@github.com:Jimdo/ui-library.git",
+	    "enable-poll-updates" : false
+        },
+
+        "rack-flags" : {
+            "url" : "git@github.com:Jimdo/rack-flags.git",
+	    "enable-poll-updates" : false
+        },
+
+        "activity-reader" : {
+            "url" : "git@github.com:Jimdo/activity-reader.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ansible-iam-module" : {
+            "url" : "git@github.com:Jimdo/ansible-iam-module.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-amsterdam" : {
+            "url" : "git@github.com:Jimdo/template-amsterdam.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland" : {
+            "url" : "git@github.com:Jimdo/wonderland.git",
+	    "enable-poll-updates" : false
+        },
+
+        "lc-server" : {
+            "url" : "git@github.com:Jimdo/lc-server.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dmp-frontend" : {
+            "url" : "git@github.com:Jimdo/dmp-frontend.git",
+	    "enable-poll-updates" : false
+        },
+
+        "rackspace-whitelist-service" : {
+            "url" : "git@github.com:Jimdo/rackspace-whitelist-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-miami-responsive" : {
+            "url" : "git@github.com:Jimdo/template-miami-responsive.git",
+	    "enable-poll-updates" : false
+        },
+
+        "percona-toolkit" : {
+            "url" : "git@github.com:Jimdo/percona-toolkit.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gowhois" : {
+            "url" : "git@github.com:Jimdo/gowhois.git",
+	    "enable-poll-updates" : false
+        },
+
+        "page-refreshr" : {
+            "url" : "git@github.com:Jimdo/page-refreshr.git",
+	    "enable-poll-updates" : false
+        },
+
+        "connect-cache-headers" : {
+            "url" : "git@github.com:Jimdo/connect-cache-headers.git",
+	    "enable-poll-updates" : false
+        },
+
+        "buildtasks" : {
+            "url" : "git@github.com:Jimdo/buildtasks.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-php-pdns-backend" : {
+            "url" : "git@github.com:Jimdo/jimdo-php-pdns-backend.git",
+	    "enable-poll-updates" : false
+        },
+
+        "googleapps-reseller-service" : {
+            "url" : "git@github.com:Jimdo/googleapps-reseller-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "aws-openvpn" : {
+            "url" : "git@github.com:Jimdo/aws-openvpn.git",
+	    "enable-poll-updates" : false
+        },
+
+        "reseller-ui" : {
+            "url" : "git@github.com:Jimdo/reseller-ui.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-deployer" : {
+            "url" : "git@github.com:Jimdo/wonderland-deployer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-ch-interim" : {
+            "url" : "git@github.com:Jimdo/jimdo-ch-interim.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-activity-persister" : {
+            "url" : "git@github.com:Jimdo/data-activity-persister.git",
+	    "enable-poll-updates" : false
+        },
+
+        "QBPopupMenu" : {
+            "url" : "git@github.com:Jimdo/QBPopupMenu.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-tracking-parser" : {
+            "url" : "git@github.com:Jimdo/data-tracking-parser.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gulp-watch-sass" : {
+            "url" : "git@github.com:Jimdo/gulp-watch-sass.git",
+	    "enable-poll-updates" : false
+        },
+
+        "check_json" : {
+            "url" : "git@github.com:Jimdo/check_json.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-s3-redshift-importer" : {
+            "url" : "git@github.com:Jimdo/data-s3-redshift-importer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "angular-oauth" : {
+            "url" : "git@github.com:Jimdo/angular-oauth.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-florence" : {
+            "url" : "git@github.com:Jimdo/template-florence.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-oraculum" : {
+            "url" : "git@github.com:Jimdo/wonderland-oraculum.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ui-prototypes" : {
+            "url" : "git@github.com:Jimdo/ui-prototypes.git",
+	    "enable-poll-updates" : false
+        },
+
+        "grunt-jquery-toolbox" : {
+            "url" : "git@github.com:Jimdo/grunt-jquery-toolbox.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gulp-postcss" : {
+            "url" : "git@github.com:Jimdo/gulp-postcss.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jquery-scrollolol" : {
+            "url" : "git@github.com:Jimdo/jquery-scrollolol.git",
+	    "enable-poll-updates" : false
+        },
+
+        "fluent-plugin-cloudwatch-logs" : {
+            "url" : "git@github.com:Jimdo/fluent-plugin-cloudwatch-logs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ui-components" : {
+            "url" : "git@github.com:Jimdo/ui-components.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-team-api" : {
+            "url" : "git@github.com:Jimdo/jimdo-team-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimflow-print-issue-tracker-integration" : {
+            "url" : "git@github.com:Jimdo/jimflow-print-issue-tracker-integration.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-alice" : {
+            "url" : "git@github.com:Jimdo/wonderland-alice.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimbo" : {
+            "url" : "git@github.com:Jimdo/jimbo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-website-classification" : {
+            "url" : "git@github.com:Jimdo/data-website-classification.git",
+	    "enable-poll-updates" : false
+        },
+
+        "platform-infrastructure" : {
+            "url" : "git@github.com:Jimdo/platform-infrastructure.git",
+	    "enable-poll-updates" : false
+        },
+
+        "phrase-rocket-extension" : {
+            "url" : "git@github.com:Jimdo/phrase-rocket-extension.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dropzone" : {
+            "url" : "git@github.com:Jimdo/dropzone.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-lib" : {
+            "url" : "git@github.com:Jimdo/template-lib.git",
+	    "enable-poll-updates" : false
+        },
+
+        "fake-s3" : {
+            "url" : "git@github.com:Jimdo/fake-s3.git",
+	    "enable-poll-updates" : false
+        },
+
+        "rest-adapter-service" : {
+            "url" : "git@github.com:Jimdo/rest-adapter-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puma" : {
+            "url" : "git@github.com:Jimdo/puma.git",
+	    "enable-poll-updates" : false
+        },
+
+        "statuscake-api" : {
+            "url" : "git@github.com:Jimdo/statuscake-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-bergen" : {
+            "url" : "git@github.com:Jimdo/template-bergen.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-siteadmin" : {
+            "url" : "git@github.com:Jimdo/jimdo-siteadmin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "brandbook" : {
+            "url" : "git@github.com:Jimdo/brandbook.git",
+	    "enable-poll-updates" : false
+        },
+
+        "supervisor" : {
+            "url" : "git@github.com:Jimdo/supervisor.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dinghy" : {
+            "url" : "git@github.com:Jimdo/dinghy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ansible-plugins" : {
+            "url" : "git@github.com:Jimdo/ansible-plugins.git",
+	    "enable-poll-updates" : false
+        },
+
+        "elk-scripts" : {
+            "url" : "git@github.com:Jimdo/elk-scripts.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-site-traffic-importer" : {
+            "url" : "git@github.com:Jimdo/data-site-traffic-importer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-statuscheck" : {
+            "url" : "git@github.com:Jimdo/wonderland-statuscheck.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jquery-background-area" : {
+            "url" : "git@github.com:Jimdo/jquery-background-area.git",
+	    "enable-poll-updates" : false
+        },
+
+        "pilbox" : {
+            "url" : "git@github.com:Jimdo/pilbox.git",
+	    "enable-poll-updates" : false
+        },
+
+        "go-dynamodb-mapper" : {
+            "url" : "git@github.com:Jimdo/go-dynamodb-mapper.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-billing-service-diff" : {
+            "url" : "git@github.com:Jimdo/creator-billing-service-diff.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-thumbor" : {
+            "url" : "git@github.com:Jimdo/jimdo-thumbor.git",
+	    "enable-poll-updates" : false
+        },
+
+        "chronos" : {
+            "url" : "git@github.com:Jimdo/chronos.git",
+	    "enable-poll-updates" : false
+        },
+
+        "modernizr-custom" : {
+            "url" : "git@github.com:Jimdo/modernizr-custom.git",
+	    "enable-poll-updates" : false
+        },
+
+        "mobile-view-tool" : {
+            "url" : "git@github.com:Jimdo/mobile-view-tool.git",
+	    "enable-poll-updates" : false
+        },
+
+        "fonts-in-the-cloud" : {
+            "url" : "git@github.com:Jimdo/fonts-in-the-cloud.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-auth-proxy-container" : {
+            "url" : "git@github.com:Jimdo/wonderland-auth-proxy-container.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-datadog-agent" : {
+            "url" : "git@github.com:Jimdo/puppet-datadog-agent.git",
+	    "enable-poll-updates" : false
+        },
+
+        "discoverjs" : {
+            "url" : "git@github.com:Jimdo/discoverjs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-pingdom" : {
+            "url" : "git@github.com:Jimdo/wonderland-pingdom.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-remote" : {
+            "url" : "git@github.com:Jimdo/jimdo-remote.git",
+	    "enable-poll-updates" : false
+        },
+
+        "zendesk-app-user-sidebar-sites" : {
+            "url" : "git@github.com:Jimdo/zendesk-app-user-sidebar-sites.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-notifications" : {
+            "url" : "git@github.com:Jimdo/wonderland-notifications.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-kanban" : {
+            "url" : "git@github.com:Jimdo/wonderland-kanban.git",
+	    "enable-poll-updates" : false
+        },
+
+        "materialize-jimdo" : {
+            "url" : "git@github.com:Jimdo/materialize-jimdo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ActionOverload" : {
+            "url" : "git@github.com:Jimdo/ActionOverload.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dmp-jimdo-page-content-api" : {
+            "url" : "git@github.com:Jimdo/dmp-jimdo-page-content-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-dev-team" : {
+            "url" : "git@github.com:Jimdo/template-dev-team.git",
+	    "enable-poll-updates" : false
+        },
+
+        "mobile-app-boilerplate" : {
+            "url" : "git@github.com:Jimdo/mobile-app-boilerplate.git",
+	    "enable-poll-updates" : false
+        },
+
+        "zendesk-app-bootstrap" : {
+            "url" : "git@github.com:Jimdo/zendesk-app-bootstrap.git",
+	    "enable-poll-updates" : false
+        },
+
+        "zen2sqs" : {
+            "url" : "git@github.com:Jimdo/zen2sqs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-firsties" : {
+            "url" : "git@github.com:Jimdo/jimdo-firsties.git",
+	    "enable-poll-updates" : false
+        },
+
+        "link" : {
+            "url" : "git@github.com:Jimdo/link.git",
+	    "enable-poll-updates" : false
+        },
+
+        "graphite_exporter" : {
+            "url" : "git@github.com:Jimdo/graphite_exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-personal-email-test" : {
+            "url" : "git@github.com:Jimdo/data-personal-email-test.git",
+	    "enable-poll-updates" : false
+        },
+
+        "performanceProfiling" : {
+            "url" : "git@github.com:Jimdo/performanceProfiling.git",
+	    "enable-poll-updates" : false
+        },
+
+        "motion-cocoapods" : {
+            "url" : "git@github.com:Jimdo/motion-cocoapods.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-example-go" : {
+            "url" : "git@github.com:Jimdo/wonderland-example-go.git",
+	    "enable-poll-updates" : false
+        },
+
+        "extract-text-webpack-plugin" : {
+            "url" : "git@github.com:Jimdo/extract-text-webpack-plugin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "go-jimdopage" : {
+            "url" : "git@github.com:Jimdo/go-jimdopage.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-personal-email" : {
+            "url" : "git@github.com:Jimdo/data-personal-email.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-early-funnel-analyser" : {
+            "url" : "git@github.com:Jimdo/data-early-funnel-analyser.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-classifyer-server" : {
+            "url" : "git@github.com:Jimdo/data-classifyer-server.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-scraper" : {
+            "url" : "git@github.com:Jimdo/data-scraper.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-TextClassifyer" : {
+            "url" : "git@github.com:Jimdo/data-TextClassifyer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-website-analyzer" : {
+            "url" : "git@github.com:Jimdo/data-website-analyzer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "caracteriq-frontend" : {
+            "url" : "git@github.com:Jimdo/caracteriq-frontend.git",
+	    "enable-poll-updates" : false
+        },
+
+        "oauth2-proxy-container" : {
+            "url" : "git@github.com:Jimdo/oauth2-proxy-container.git",
+	    "enable-poll-updates" : false
+        },
+
+        "range-slider-sass" : {
+            "url" : "git@github.com:Jimdo/range-slider-sass.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-goodie-shop" : {
+            "url" : "git@github.com:Jimdo/template-goodie-shop.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nagios2json" : {
+            "url" : "git@github.com:Jimdo/nagios2json.git",
+	    "enable-poll-updates" : false
+        },
+
+        "zenploy" : {
+            "url" : "git@github.com:Jimdo/zenploy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "on-call-dashboard" : {
+            "url" : "git@github.com:Jimdo/on-call-dashboard.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thumbor_botornado" : {
+            "url" : "git@github.com:Jimdo/thumbor_botornado.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thumbor_aws" : {
+            "url" : "git@github.com:Jimdo/thumbor_aws.git",
+	    "enable-poll-updates" : false
+        },
+
+        "generator-jquery-plugin" : {
+            "url" : "git@github.com:Jimdo/generator-jquery-plugin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thumbor" : {
+            "url" : "git@github.com:Jimdo/thumbor.git",
+	    "enable-poll-updates" : false
+        },
+
+        "goodie-shop-werkstatt" : {
+            "url" : "git@github.com:Jimdo/goodie-shop-werkstatt.git",
+	    "enable-poll-updates" : false
+        },
+
+        "generator-github-repository" : {
+            "url" : "git@github.com:Jimdo/generator-github-repository.git",
+	    "enable-poll-updates" : false
+        },
+
+        "kayako-php-search" : {
+            "url" : "git@github.com:Jimdo/kayako-php-search.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-rds-example" : {
+            "url" : "git@github.com:Jimdo/wonderland-rds-example.git",
+	    "enable-poll-updates" : false
+        },
+
+        "image-redirector" : {
+            "url" : "git@github.com:Jimdo/image-redirector.git",
+	    "enable-poll-updates" : false
+        },
+
+        "goozen" : {
+            "url" : "git@github.com:Jimdo/goozen.git",
+	    "enable-poll-updates" : false
+        },
+
+        "design-settings-compiler" : {
+            "url" : "git@github.com:Jimdo/design-settings-compiler.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jd-throttle-debounce" : {
+            "url" : "git@github.com:Jimdo/jd-throttle-debounce.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-peerings" : {
+            "url" : "git@github.com:Jimdo/wonderland-peerings.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jquery-jd-scrollpane" : {
+            "url" : "git@github.com:Jimdo/jquery-jd-scrollpane.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-build-status-api" : {
+            "url" : "git@github.com:Jimdo/jimdo-build-status-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-johannesburg" : {
+            "url" : "git@github.com:Jimdo/template-johannesburg.git",
+	    "enable-poll-updates" : false
+        },
+
+        "signpost" : {
+            "url" : "git@github.com:Jimdo/signpost.git",
+	    "enable-poll-updates" : false
+        },
+
+        "grunt-template-publisher" : {
+            "url" : "git@github.com:Jimdo/grunt-template-publisher.git",
+	    "enable-poll-updates" : false
+        },
+
+        "design-manifest-enhancer" : {
+            "url" : "git@github.com:Jimdo/design-manifest-enhancer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "zendesk-kayako-ticket-search" : {
+            "url" : "git@github.com:Jimdo/zendesk-kayako-ticket-search.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-lean-examples" : {
+            "url" : "git@github.com:Jimdo/jimdo-lean-examples.git",
+	    "enable-poll-updates" : false
+        },
+
+        "angular-annotate-module" : {
+            "url" : "git@github.com:Jimdo/angular-annotate-module.git",
+	    "enable-poll-updates" : false
+        },
+
+        "go-devkit" : {
+            "url" : "git@github.com:Jimdo/go-devkit.git",
+	    "enable-poll-updates" : false
+        },
+
+        "stylemode-defaults" : {
+            "url" : "git@github.com:Jimdo/stylemode-defaults.git",
+	    "enable-poll-updates" : false
+        },
+
+        "style-loader" : {
+            "url" : "git@github.com:Jimdo/style-loader.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-example-rails" : {
+            "url" : "git@github.com:Jimdo/wonderland-example-rails.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-vault" : {
+            "url" : "git@github.com:Jimdo/wonderland-vault.git",
+	    "enable-poll-updates" : false
+        },
+
+        "vault-unseal" : {
+            "url" : "git@github.com:Jimdo/vault-unseal.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-example-nodejs" : {
+            "url" : "git@github.com:Jimdo/wonderland-example-nodejs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "bower-install-lowest" : {
+            "url" : "git@github.com:Jimdo/bower-install-lowest.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-example-php-nginx" : {
+            "url" : "git@github.com:Jimdo/wonderland-example-php-nginx.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-example-php-apache" : {
+            "url" : "git@github.com:Jimdo/wonderland-example-php-apache.git",
+	    "enable-poll-updates" : false
+        },
+
+        "famous" : {
+            "url" : "git@github.com:Jimdo/famous.git",
+	    "enable-poll-updates" : false
+        },
+
+        "lessifest-service" : {
+            "url" : "git@github.com:Jimdo/lessifest-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "niles-redis" : {
+            "url" : "git@github.com:Jimdo/niles-redis.git",
+	    "enable-poll-updates" : false
+        },
+
+        "invoice-archiver" : {
+            "url" : "git@github.com:Jimdo/invoice-archiver.git",
+	    "enable-poll-updates" : false
+        },
+
+        "mixedstyle-loader" : {
+            "url" : "git@github.com:Jimdo/mixedstyle-loader.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jquery-fullscreensize" : {
+            "url" : "git@github.com:Jimdo/jquery-fullscreensize.git",
+	    "enable-poll-updates" : false
+        },
+
+        "tucky" : {
+            "url" : "git@github.com:Jimdo/tucky.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gamification-external" : {
+            "url" : "git@github.com:Jimdo/gamification-external.git",
+	    "enable-poll-updates" : false
+        },
+
+        "responsive-hacks" : {
+            "url" : "git@github.com:Jimdo/responsive-hacks.git",
+	    "enable-poll-updates" : false
+        },
+
+        "modules-api-client-spike" : {
+            "url" : "git@github.com:Jimdo/modules-api-client-spike.git",
+	    "enable-poll-updates" : false
+        },
+
+        "signup_worker" : {
+            "url" : "git@github.com:Jimdo/signup_worker.git",
+	    "enable-poll-updates" : false
+        },
+
+        "mandrill-insights" : {
+            "url" : "git@github.com:Jimdo/mandrill-insights.git",
+	    "enable-poll-updates" : false
+        },
+
+        "signup-widget" : {
+            "url" : "git@github.com:Jimdo/signup-widget.git",
+	    "enable-poll-updates" : false
+        },
+
+        "prometheus-clj" : {
+            "url" : "git@github.com:Jimdo/prometheus-clj.git",
+	    "enable-poll-updates" : false
+        },
+
+        "statsd_exporter" : {
+            "url" : "git@github.com:Jimdo/statsd_exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-updater" : {
+            "url" : "git@github.com:Jimdo/template-updater.git",
+	    "enable-poll-updates" : false
+        },
+
+        "zendesk-reactivate" : {
+            "url" : "git@github.com:Jimdo/zendesk-reactivate.git",
+	    "enable-poll-updates" : false
+        },
+
+        "aws-ec2-abuse-handler" : {
+            "url" : "git@github.com:Jimdo/aws-ec2-abuse-handler.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-billing-proxy" : {
+            "url" : "git@github.com:Jimdo/creator-billing-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sbt-aws-lambda" : {
+            "url" : "git@github.com:Jimdo/sbt-aws-lambda.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sass-contrast-color" : {
+            "url" : "git@github.com:Jimdo/sass-contrast-color.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dockerlogstream" : {
+            "url" : "git@github.com:Jimdo/dockerlogstream.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-docs" : {
+            "url" : "git@github.com:Jimdo/wonderland-docs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "fake_sqs" : {
+            "url" : "git@github.com:Jimdo/fake_sqs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sass-icon-lib" : {
+            "url" : "git@github.com:Jimdo/sass-icon-lib.git",
+	    "enable-poll-updates" : false
+        },
+
+        "siteadmin-demo" : {
+            "url" : "git@github.com:Jimdo/siteadmin-demo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "platform-kanban" : {
+            "url" : "git@github.com:Jimdo/platform-kanban.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-tokyo" : {
+            "url" : "git@github.com:Jimdo/template-tokyo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "heroku-datadog-drain" : {
+            "url" : "git@github.com:Jimdo/heroku-datadog-drain.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-cli" : {
+            "url" : "git@github.com:Jimdo/wonderland-cli.git",
+	    "enable-poll-updates" : false
+        },
+
+        "strong-logbook" : {
+            "url" : "git@github.com:Jimdo/strong-logbook.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-internal-testing-ca" : {
+            "url" : "git@github.com:Jimdo/jimdo-internal-testing-ca.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-tests" : {
+            "url" : "git@github.com:Jimdo/wonderland-tests.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sqs-background-image-collector" : {
+            "url" : "git@github.com:Jimdo/sqs-background-image-collector.git",
+	    "enable-poll-updates" : false
+        },
+
+        "open-xchange-client" : {
+            "url" : "git@github.com:Jimdo/open-xchange-client.git",
+	    "enable-poll-updates" : false
+        },
+
+        "node-elb-log-parser" : {
+            "url" : "git@github.com:Jimdo/node-elb-log-parser.git",
+	    "enable-poll-updates" : false
+        },
+
+        "tracking-endpoint" : {
+            "url" : "git@github.com:Jimdo/tracking-endpoint.git",
+	    "enable-poll-updates" : false
+        },
+
+        "arimo-in-the-cloud" : {
+            "url" : "git@github.com:Jimdo/arimo-in-the-cloud.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dashing-support" : {
+            "url" : "git@github.com:Jimdo/dashing-support.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jquery-migrate" : {
+            "url" : "git@github.com:Jimdo/jquery-migrate.git",
+	    "enable-poll-updates" : false
+        },
+
+        "react-google-recaptcha" : {
+            "url" : "git@github.com:Jimdo/react-google-recaptcha.git",
+	    "enable-poll-updates" : false
+        },
+
+        "graphql-proxy" : {
+            "url" : "git@github.com:Jimdo/graphql-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "rest-proxy" : {
+            "url" : "git@github.com:Jimdo/rest-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "signup-endpoint-v2" : {
+            "url" : "git@github.com:Jimdo/signup-endpoint-v2.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-api" : {
+            "url" : "git@github.com:Jimdo/jimdo-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "grunt-stylemode" : {
+            "url" : "git@github.com:Jimdo/grunt-stylemode.git",
+	    "enable-poll-updates" : false
+        },
+
+        "testtrachook" : {
+            "url" : "git@github.com:Jimdo/testtrachook.git",
+	    "enable-poll-updates" : false
+        },
+
+        "legacy-background-assets" : {
+            "url" : "git@github.com:Jimdo/legacy-background-assets.git",
+	    "enable-poll-updates" : false
+        },
+
+        "webpack-jquery-plugin" : {
+            "url" : "git@github.com:Jimdo/webpack-jquery-plugin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "zendesk_tickets_importer" : {
+            "url" : "git@github.com:Jimdo/zendesk_tickets_importer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "render-module-service" : {
+            "url" : "git@github.com:Jimdo/render-module-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "react-cms-modules" : {
+            "url" : "git@github.com:Jimdo/react-cms-modules.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-dynamodb-backup" : {
+            "url" : "git@github.com:Jimdo/wonderland-dynamodb-backup.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-payment-provider-adyen" : {
+            "url" : "git@github.com:Jimdo/creator-payment-provider-adyen.git",
+	    "enable-poll-updates" : false
+        },
+
+        "invoice-archive-worker" : {
+            "url" : "git@github.com:Jimdo/invoice-archive-worker.git",
+	    "enable-poll-updates" : false
+        },
+
+        "the-noun-server" : {
+            "url" : "git@github.com:Jimdo/the-noun-server.git",
+	    "enable-poll-updates" : false
+        },
+
+        "experiment-code-generator" : {
+            "url" : "git@github.com:Jimdo/experiment-code-generator.git",
+	    "enable-poll-updates" : false
+        },
+
+        "feature-notifications" : {
+            "url" : "git@github.com:Jimdo/feature-notifications.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-patternplate" : {
+            "url" : "git@github.com:Jimdo/jimdo-patternplate.git",
+	    "enable-poll-updates" : false
+        },
+
+        "prometheus-mysql-auto-increment-capacity-exporter" : {
+            "url" : "git@github.com:Jimdo/prometheus-mysql-auto-increment-capacity-exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "tinymce" : {
+            "url" : "git@github.com:Jimdo/tinymce.git",
+	    "enable-poll-updates" : false
+        },
+
+        "remote-control" : {
+            "url" : "git@github.com:Jimdo/remote-control.git",
+	    "enable-poll-updates" : false
+        },
+
+        "content-repository" : {
+            "url" : "git@github.com:Jimdo/content-repository.git",
+	    "enable-poll-updates" : false
+        },
+
+        "spark-env" : {
+            "url" : "git@github.com:Jimdo/spark-env.git",
+	    "enable-poll-updates" : false
+        },
+
+        "protect-cms-linter" : {
+            "url" : "git@github.com:Jimdo/protect-cms-linter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "lucky-serpent" : {
+            "url" : "git@github.com:Jimdo/lucky-serpent.git",
+	    "enable-poll-updates" : false
+        },
+
+        "zendesk-ticket-creation-helper" : {
+            "url" : "git@github.com:Jimdo/zendesk-ticket-creation-helper.git",
+	    "enable-poll-updates" : false
+        },
+
+        "docker-dd-agent" : {
+            "url" : "git@github.com:Jimdo/docker-dd-agent.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jquery-jd-help-balloon" : {
+            "url" : "git@github.com:Jimdo/jquery-jd-help-balloon.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-switch-web-cms-shortcut-extension" : {
+            "url" : "git@github.com:Jimdo/jimdo-switch-web-cms-shortcut-extension.git",
+	    "enable-poll-updates" : false
+        },
+
+        "responsive-rhythm-team" : {
+            "url" : "git@github.com:Jimdo/responsive-rhythm-team.git",
+	    "enable-poll-updates" : false
+        },
+
+        "docker-custom-build-environment-plugin" : {
+            "url" : "git@github.com:Jimdo/docker-custom-build-environment-plugin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-stream-classification" : {
+            "url" : "git@github.com:Jimdo/data-stream-classification.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-personal-email-jobs" : {
+            "url" : "git@github.com:Jimdo/data-personal-email-jobs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-nabu" : {
+            "url" : "git@github.com:Jimdo/template-nabu.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jenkins-dbrestore-mgmt" : {
+            "url" : "git@github.com:Jimdo/jenkins-dbrestore-mgmt.git",
+	    "enable-poll-updates" : false
+        },
+
+        "bgpp-prototype" : {
+            "url" : "git@github.com:Jimdo/bgpp-prototype.git",
+	    "enable-poll-updates" : false
+        },
+
+        "asg-ebs" : {
+            "url" : "git@github.com:Jimdo/asg-ebs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "github-release" : {
+            "url" : "git@github.com:Jimdo/github-release.git",
+	    "enable-poll-updates" : false
+        },
+
+        "patternplate-transform-node-sass" : {
+            "url" : "git@github.com:Jimdo/patternplate-transform-node-sass.git",
+	    "enable-poll-updates" : false
+        },
+
+        "siteadmin" : {
+            "url" : "git@github.com:Jimdo/siteadmin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "grunt-jimdo-protect-cms" : {
+            "url" : "git@github.com:Jimdo/grunt-jimdo-protect-cms.git",
+	    "enable-poll-updates" : false
+        },
+
+        "docker-jenkins-slave-termination-check" : {
+            "url" : "git@github.com:Jimdo/docker-jenkins-slave-termination-check.git",
+	    "enable-poll-updates" : false
+        },
+
+        "datadog-go" : {
+            "url" : "git@github.com:Jimdo/datadog-go.git",
+	    "enable-poll-updates" : false
+        },
+
+        "eventsource" : {
+            "url" : "git@github.com:Jimdo/eventsource.git",
+	    "enable-poll-updates" : false
+        },
+
+        "globalcollect_sync" : {
+            "url" : "git@github.com:Jimdo/globalcollect_sync.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-jimdo-dev" : {
+            "url" : "git@github.com:Jimdo/template-jimdo-dev.git",
+	    "enable-poll-updates" : false
+        },
+
+        "pull-request-closer" : {
+            "url" : "git@github.com:Jimdo/pull-request-closer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "evergreen" : {
+            "url" : "git@github.com:Jimdo/evergreen.git",
+	    "enable-poll-updates" : false
+        },
+
+        "application-metrics" : {
+            "url" : "git@github.com:Jimdo/application-metrics.git",
+	    "enable-poll-updates" : false
+        },
+
+        "fsevents_to_vm" : {
+            "url" : "git@github.com:Jimdo/fsevents_to_vm.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paymentteam-infrastructure" : {
+            "url" : "git@github.com:Jimdo/paymentteam-infrastructure.git",
+	    "enable-poll-updates" : false
+        },
+
+        "docker-machine-fs-notify" : {
+            "url" : "git@github.com:Jimdo/docker-machine-fs-notify.git",
+	    "enable-poll-updates" : false
+        },
+
+        "slack-plugin" : {
+            "url" : "git@github.com:Jimdo/slack-plugin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-web-library" : {
+            "url" : "git@github.com:Jimdo/jimdo-web-library.git",
+	    "enable-poll-updates" : false
+        },
+
+        "caracteriq-java" : {
+            "url" : "git@github.com:Jimdo/caracteriq-java.git",
+	    "enable-poll-updates" : false
+        },
+
+        "puppet-datacat" : {
+            "url" : "git@github.com:Jimdo/puppet-datacat.git",
+	    "enable-poll-updates" : false
+        },
+
+        "homebrew-wonderland" : {
+            "url" : "git@github.com:Jimdo/homebrew-wonderland.git",
+	    "enable-poll-updates" : false
+        },
+
+        "obfiously" : {
+            "url" : "git@github.com:Jimdo/obfiously.git",
+	    "enable-poll-updates" : false
+        },
+
+        "statsd" : {
+            "url" : "git@github.com:Jimdo/statsd.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gomagick" : {
+            "url" : "git@github.com:Jimdo/gomagick.git",
+	    "enable-poll-updates" : false
+        },
+
+        "predefined-pages-ui-prototype" : {
+            "url" : "git@github.com:Jimdo/predefined-pages-ui-prototype.git",
+	    "enable-poll-updates" : false
+        },
+
+        "node-webshot" : {
+            "url" : "git@github.com:Jimdo/node-webshot.git",
+	    "enable-poll-updates" : false
+        },
+
+        "styleguard" : {
+            "url" : "git@github.com:Jimdo/styleguard.git",
+	    "enable-poll-updates" : false
+        },
+
+        "lunch-buddy" : {
+            "url" : "git@github.com:Jimdo/lunch-buddy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-design-jimcon" : {
+            "url" : "git@github.com:Jimdo/template-design-jimcon.git",
+	    "enable-poll-updates" : false
+        },
+
+        "docker-aws-cli" : {
+            "url" : "git@github.com:Jimdo/docker-aws-cli.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cms-discount-overlay" : {
+            "url" : "git@github.com:Jimdo/cms-discount-overlay.git",
+	    "enable-poll-updates" : false
+        },
+
+        "minimum-iron-button" : {
+            "url" : "git@github.com:Jimdo/minimum-iron-button.git",
+	    "enable-poll-updates" : false
+        },
+
+        "growth-monkey" : {
+            "url" : "git@github.com:Jimdo/growth-monkey.git",
+	    "enable-poll-updates" : false
+        },
+
+        "GitHubZen" : {
+            "url" : "git@github.com:Jimdo/GitHubZen.git",
+	    "enable-poll-updates" : false
+        },
+
+        "githubzen-wonderland-deployment" : {
+            "url" : "git@github.com:Jimdo/githubzen-wonderland-deployment.git",
+	    "enable-poll-updates" : false
+        },
+
+        "schnueffelstueck" : {
+            "url" : "git@github.com:Jimdo/schnueffelstueck.git",
+	    "enable-poll-updates" : false
+        },
+
+        "zendesk-customer-satisfaction-survey" : {
+            "url" : "git@github.com:Jimdo/zendesk-customer-satisfaction-survey.git",
+	    "enable-poll-updates" : false
+        },
+
+        "geoipupdate" : {
+            "url" : "git@github.com:Jimdo/geoipupdate.git",
+	    "enable-poll-updates" : false
+        },
+
+        "platform-oncall-reporter" : {
+            "url" : "git@github.com:Jimdo/platform-oncall-reporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "elb-log-replayer" : {
+            "url" : "git@github.com:Jimdo/elb-log-replayer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "2LS" : {
+            "url" : "git@github.com:Jimdo/2LS.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ansible-modules-extras" : {
+            "url" : "git@github.com:Jimdo/ansible-modules-extras.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-siftscience" : {
+            "url" : "git@github.com:Jimdo/jimdo-siftscience.git",
+	    "enable-poll-updates" : false
+        },
+
+        "conventional-changelog-custom" : {
+            "url" : "git@github.com:Jimdo/conventional-changelog-custom.git",
+	    "enable-poll-updates" : false
+        },
+
+        "graylog-fake" : {
+            "url" : "git@github.com:Jimdo/graylog-fake.git",
+	    "enable-poll-updates" : false
+        },
+
+        "the-signup-flow" : {
+            "url" : "git@github.com:Jimdo/the-signup-flow.git",
+	    "enable-poll-updates" : false
+        },
+
+        "libkv" : {
+            "url" : "git@github.com:Jimdo/libkv.git",
+	    "enable-poll-updates" : false
+        },
+
+        "issue-closer" : {
+            "url" : "git@github.com:Jimdo/issue-closer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "react-component-playground" : {
+            "url" : "git@github.com:Jimdo/react-component-playground.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-schnueffelstueck" : {
+            "url" : "git@github.com:Jimdo/wonderland-schnueffelstueck.git",
+	    "enable-poll-updates" : false
+        },
+
+        "global-collect-reports" : {
+            "url" : "git@github.com:Jimdo/global-collect-reports.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-basics-client" : {
+            "url" : "git@github.com:Jimdo/data-basics-client.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-chat-switch-off" : {
+            "url" : "git@github.com:Jimdo/data-chat-switch-off.git",
+	    "enable-poll-updates" : false
+        },
+
+        "zendesk-app-ticket-sidebar-feedback-forms" : {
+            "url" : "git@github.com:Jimdo/zendesk-app-ticket-sidebar-feedback-forms.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-metrics-forwarder" : {
+            "url" : "git@github.com:Jimdo/creator-metrics-forwarder.git",
+	    "enable-poll-updates" : false
+        },
+
+        "SufferScore" : {
+            "url" : "git@github.com:Jimdo/SufferScore.git",
+	    "enable-poll-updates" : false
+        },
+
+        "changelogrc-spec" : {
+            "url" : "git@github.com:Jimdo/changelogrc-spec.git",
+	    "enable-poll-updates" : false
+        },
+
+        "get-changelogrc-config" : {
+            "url" : "git@github.com:Jimdo/get-changelogrc-config.git",
+	    "enable-poll-updates" : false
+        },
+
+        "changelogrc-angular" : {
+            "url" : "git@github.com:Jimdo/changelogrc-angular.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cz-conventional-changelog-custom" : {
+            "url" : "git@github.com:Jimdo/cz-conventional-changelog-custom.git",
+	    "enable-poll-updates" : false
+        },
+
+        "conventional-changelog" : {
+            "url" : "git@github.com:Jimdo/conventional-changelog.git",
+	    "enable-poll-updates" : false
+        },
+
+        "commitizen-git-log-helper" : {
+            "url" : "git@github.com:Jimdo/commitizen-git-log-helper.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-cluster-autoscaler" : {
+            "url" : "git@github.com:Jimdo/wonderland-cluster-autoscaler.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cms_addon_content" : {
+            "url" : "git@github.com:Jimdo/cms_addon_content.git",
+	    "enable-poll-updates" : false
+        },
+
+        "zendesk-metrics" : {
+            "url" : "git@github.com:Jimdo/zendesk-metrics.git",
+	    "enable-poll-updates" : false
+        },
+
+        "signup-subtype-service" : {
+            "url" : "git@github.com:Jimdo/signup-subtype-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "deckbot" : {
+            "url" : "git@github.com:Jimdo/deckbot.git",
+	    "enable-poll-updates" : false
+        },
+
+        "javascript" : {
+            "url" : "git@github.com:Jimdo/javascript.git",
+	    "enable-poll-updates" : false
+        },
+
+        "lp-dashboard" : {
+            "url" : "git@github.com:Jimdo/lp-dashboard.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland_metrics_export" : {
+            "url" : "git@github.com:Jimdo/wonderland_metrics_export.git",
+	    "enable-poll-updates" : false
+        },
+
+        "pusher" : {
+            "url" : "git@github.com:Jimdo/pusher.git",
+	    "enable-poll-updates" : false
+        },
+
+        "prometheus-zendesk-exporter" : {
+            "url" : "git@github.com:Jimdo/prometheus-zendesk-exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "templateflow" : {
+            "url" : "git@github.com:Jimdo/templateflow.git",
+	    "enable-poll-updates" : false
+        },
+
+        "prometheus-flightdeck-trac-exporter" : {
+            "url" : "git@github.com:Jimdo/prometheus-flightdeck-trac-exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "diffee-jimdo-ui-lib" : {
+            "url" : "git@github.com:Jimdo/diffee-jimdo-ui-lib.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-service-autoscaler" : {
+            "url" : "git@github.com:Jimdo/wonderland-service-autoscaler.git",
+	    "enable-poll-updates" : false
+        },
+
+        "deck-issues" : {
+            "url" : "git@github.com:Jimdo/deck-issues.git",
+	    "enable-poll-updates" : false
+        },
+
+        "landingpages-lib" : {
+            "url" : "git@github.com:Jimdo/landingpages-lib.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-activitylog-to-siftscience" : {
+            "url" : "git@github.com:Jimdo/creator-activitylog-to-siftscience.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-siftscience-slackbot" : {
+            "url" : "git@github.com:Jimdo/creator-siftscience-slackbot.git",
+	    "enable-poll-updates" : false
+        },
+
+        "classification-bookmarklet" : {
+            "url" : "git@github.com:Jimdo/classification-bookmarklet.git",
+	    "enable-poll-updates" : false
+        },
+
+        "statuspage-widget" : {
+            "url" : "git@github.com:Jimdo/statuspage-widget.git",
+	    "enable-poll-updates" : false
+        },
+
+        "react-to-jsx" : {
+            "url" : "git@github.com:Jimdo/react-to-jsx.git",
+	    "enable-poll-updates" : false
+        },
+
+        "devkit-core" : {
+            "url" : "git@github.com:Jimdo/devkit-core.git",
+	    "enable-poll-updates" : false
+        },
+
+        "logstash-plugin" : {
+            "url" : "git@github.com:Jimdo/logstash-plugin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-dwh-selfservice" : {
+            "url" : "git@github.com:Jimdo/data-dwh-selfservice.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-head-redirect-scanner" : {
+            "url" : "git@github.com:Jimdo/data-head-redirect-scanner.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-dogstatsd" : {
+            "url" : "git@github.com:Jimdo/wonderland-dogstatsd.git",
+	    "enable-poll-updates" : false
+        },
+
+        "analyze-commits-commitstylerc" : {
+            "url" : "git@github.com:Jimdo/analyze-commits-commitstylerc.git",
+	    "enable-poll-updates" : false
+        },
+
+        "react-element-to-jsx-string" : {
+            "url" : "git@github.com:Jimdo/react-element-to-jsx-string.git",
+	    "enable-poll-updates" : false
+        },
+
+        "pool-team" : {
+            "url" : "git@github.com:Jimdo/pool-team.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-stockholm" : {
+            "url" : "git@github.com:Jimdo/template-stockholm.git",
+	    "enable-poll-updates" : false
+        },
+
+        "zendesk-export-tickets-created" : {
+            "url" : "git@github.com:Jimdo/zendesk-export-tickets-created.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-monitoring" : {
+            "url" : "git@github.com:Jimdo/wonderland-monitoring.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-jobs" : {
+            "url" : "git@github.com:Jimdo/data-jobs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "last-release-github" : {
+            "url" : "git@github.com:Jimdo/last-release-github.git",
+	    "enable-poll-updates" : false
+        },
+
+        "docker-debian-with-curl" : {
+            "url" : "git@github.com:Jimdo/docker-debian-with-curl.git",
+	    "enable-poll-updates" : false
+        },
+
+        "elb-instance-status" : {
+            "url" : "git@github.com:Jimdo/elb-instance-status.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-documentation" : {
+            "url" : "git@github.com:Jimdo/data-documentation.git",
+	    "enable-poll-updates" : false
+        },
+
+        "react-redux-playground" : {
+            "url" : "git@github.com:Jimdo/react-redux-playground.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thrift-api-swift" : {
+            "url" : "git@github.com:Jimdo/thrift-api-swift.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-website-overlay" : {
+            "url" : "git@github.com:Jimdo/jimdo-website-overlay.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-phishing-detector" : {
+            "url" : "git@github.com:Jimdo/creator-phishing-detector.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-phishing-detector-reporting-cron" : {
+            "url" : "git@github.com:Jimdo/creator-phishing-detector-reporting-cron.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ansible-fastly" : {
+            "url" : "git@github.com:Jimdo/ansible-fastly.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-facebook-token-generator" : {
+            "url" : "git@github.com:Jimdo/data-facebook-token-generator.git",
+	    "enable-poll-updates" : false
+        },
+
+        "target-background-areas" : {
+            "url" : "git@github.com:Jimdo/target-background-areas.git",
+	    "enable-poll-updates" : false
+        },
+
+        "autoscaling-file-sd" : {
+            "url" : "git@github.com:Jimdo/autoscaling-file-sd.git",
+	    "enable-poll-updates" : false
+        },
+
+        "prometheus_client_php" : {
+            "url" : "git@github.com:Jimdo/prometheus_client_php.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-website-content-search" : {
+            "url" : "git@github.com:Jimdo/data-website-content-search.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dmp-template-data" : {
+            "url" : "git@github.com:Jimdo/dmp-template-data.git",
+	    "enable-poll-updates" : false
+        },
+
+        "webteam-lc-template" : {
+            "url" : "git@github.com:Jimdo/webteam-lc-template.git",
+	    "enable-poll-updates" : false
+        },
+
+        "typings-for-css-modules-plugin" : {
+            "url" : "git@github.com:Jimdo/typings-for-css-modules-plugin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "stylelint-config-jimdo" : {
+            "url" : "git@github.com:Jimdo/stylelint-config-jimdo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "intellij-plugin-translations" : {
+            "url" : "git@github.com:Jimdo/intellij-plugin-translations.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-dinah" : {
+            "url" : "git@github.com:Jimdo/wonderland-dinah.git",
+	    "enable-poll-updates" : false
+        },
+
+        "node-zendesk-verify-checker" : {
+            "url" : "git@github.com:Jimdo/node-zendesk-verify-checker.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-example-shared-volumes" : {
+            "url" : "git@github.com:Jimdo/wonderland-example-shared-volumes.git",
+	    "enable-poll-updates" : false
+        },
+
+        "invoice-archive-sync" : {
+            "url" : "git@github.com:Jimdo/invoice-archive-sync.git",
+	    "enable-poll-updates" : false
+        },
+
+        "api-credentials" : {
+            "url" : "git@github.com:Jimdo/api-credentials.git",
+	    "enable-poll-updates" : false
+        },
+
+        "yaml-vault" : {
+            "url" : "git@github.com:Jimdo/yaml-vault.git",
+	    "enable-poll-updates" : false
+        },
+
+        "node-zendesk-suspended-tickets" : {
+            "url" : "git@github.com:Jimdo/node-zendesk-suspended-tickets.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-registry" : {
+            "url" : "git@github.com:Jimdo/wonderland-registry.git",
+	    "enable-poll-updates" : false
+        },
+
+        "devkit-chrome-extension" : {
+            "url" : "git@github.com:Jimdo/devkit-chrome-extension.git",
+	    "enable-poll-updates" : false
+        },
+
+        "_generate-thrift-access-token_soft_delete" : {
+            "url" : "git@github.com:Jimdo/_generate-thrift-access-token_soft_delete.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-abtest" : {
+            "url" : "git@github.com:Jimdo/data-abtest.git",
+	    "enable-poll-updates" : false
+        },
+
+        "flatcar-linux-release" : {
+            "url" : "git@github.com:Jimdo/flatcar-linux-release.git",
+	    "enable-poll-updates" : false
+        },
+
+        "status" : {
+            "url" : "git@github.com:Jimdo/status.git",
+	    "enable-poll-updates" : false
+        },
+
+        "deck-navigation-repair" : {
+            "url" : "git@github.com:Jimdo/deck-navigation-repair.git",
+	    "enable-poll-updates" : false
+        },
+
+        "devkit-plugin-stylemode" : {
+            "url" : "git@github.com:Jimdo/devkit-plugin-stylemode.git",
+	    "enable-poll-updates" : false
+        },
+
+        "deck-cron-check-mgmt-max-primary-key" : {
+            "url" : "git@github.com:Jimdo/deck-cron-check-mgmt-max-primary-key.git",
+	    "enable-poll-updates" : false
+        },
+
+        "md5-loader" : {
+            "url" : "git@github.com:Jimdo/md5-loader.git",
+	    "enable-poll-updates" : false
+        },
+
+        "deck-count-duplicate-orders" : {
+            "url" : "git@github.com:Jimdo/deck-count-duplicate-orders.git",
+	    "enable-poll-updates" : false
+        },
+
+        "db-query-runner" : {
+            "url" : "git@github.com:Jimdo/db-query-runner.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ec2-filter" : {
+            "url" : "git@github.com:Jimdo/ec2-filter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "deck-cronjobs" : {
+            "url" : "git@github.com:Jimdo/deck-cronjobs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dmp-style-mode-js" : {
+            "url" : "git@github.com:Jimdo/dmp-style-mode-js.git",
+	    "enable-poll-updates" : false
+        },
+
+        "mobilelogin-qrcode-generator" : {
+            "url" : "git@github.com:Jimdo/mobilelogin-qrcode-generator.git",
+	    "enable-poll-updates" : false
+        },
+
+        "repos" : {
+            "url" : "git@github.com:Jimdo/repos.git",
+	    "enable-poll-updates" : false
+        },
+
+        "download-watch" : {
+            "url" : "git@github.com:Jimdo/download-watch.git",
+	    "enable-poll-updates" : false
+        },
+
+        "alertmanager" : {
+            "url" : "git@github.com:Jimdo/alertmanager.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ace-theme-jimdo" : {
+            "url" : "git@github.com:Jimdo/ace-theme-jimdo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "template-ingolestadt" : {
+            "url" : "git@github.com:Jimdo/template-ingolestadt.git",
+	    "enable-poll-updates" : false
+        },
+
+        "statuspage-updater" : {
+            "url" : "git@github.com:Jimdo/statuspage-updater.git",
+	    "enable-poll-updates" : false
+        },
+
+        "pagerduty-force-override" : {
+            "url" : "git@github.com:Jimdo/pagerduty-force-override.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdash-slider" : {
+            "url" : "git@github.com:Jimdo/jimdash-slider.git",
+	    "enable-poll-updates" : false
+        },
+
+        "vault-rw-monitoring" : {
+            "url" : "git@github.com:Jimdo/vault-rw-monitoring.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-metabase" : {
+            "url" : "git@github.com:Jimdo/data-metabase.git",
+	    "enable-poll-updates" : false
+        },
+
+        "reportbook" : {
+            "url" : "git@github.com:Jimdo/reportbook.git",
+	    "enable-poll-updates" : false
+        },
+
+        "deck-cron-check-ga-profiles" : {
+            "url" : "git@github.com:Jimdo/deck-cron-check-ga-profiles.git",
+	    "enable-poll-updates" : false
+        },
+
+        "aws-sdk-go" : {
+            "url" : "git@github.com:Jimdo/aws-sdk-go.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nomad" : {
+            "url" : "git@github.com:Jimdo/nomad.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-python-ml" : {
+            "url" : "git@github.com:Jimdo/data-python-ml.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-service-pricing" : {
+            "url" : "git@github.com:Jimdo/wonderland-service-pricing.git",
+	    "enable-poll-updates" : false
+        },
+
+        "deck-cron-check-jimstatic-nameserver" : {
+            "url" : "git@github.com:Jimdo/deck-cron-check-jimstatic-nameserver.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wolfberry" : {
+            "url" : "git@github.com:Jimdo/wolfberry.git",
+	    "enable-poll-updates" : false
+        },
+
+        "rebuilt-old-templates" : {
+            "url" : "git@github.com:Jimdo/rebuilt-old-templates.git",
+	    "enable-poll-updates" : false
+        },
+
+        "pwn_viewer" : {
+            "url" : "git@github.com:Jimdo/pwn_viewer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-adwords-refresh-token" : {
+            "url" : "git@github.com:Jimdo/data-adwords-refresh-token.git",
+	    "enable-poll-updates" : false
+        },
+
+        "team-jimdocom-kanban" : {
+            "url" : "git@github.com:Jimdo/team-jimdocom-kanban.git",
+	    "enable-poll-updates" : false
+        },
+
+        "npm-bump" : {
+            "url" : "git@github.com:Jimdo/npm-bump.git",
+	    "enable-poll-updates" : false
+        },
+
+        "chan" : {
+            "url" : "git@github.com:Jimdo/chan.git",
+	    "enable-poll-updates" : false
+        },
+
+        "homebrew-tools" : {
+            "url" : "git@github.com:Jimdo/homebrew-tools.git",
+	    "enable-poll-updates" : false
+        },
+
+        "katas" : {
+            "url" : "git@github.com:Jimdo/katas.git",
+	    "enable-poll-updates" : false
+        },
+
+        "pagerduty-config" : {
+            "url" : "git@github.com:Jimdo/pagerduty-config.git",
+	    "enable-poll-updates" : false
+        },
+
+        "productdesign" : {
+            "url" : "git@github.com:Jimdo/productdesign.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-haus-support-status" : {
+            "url" : "git@github.com:Jimdo/jimdo-haus-support-status.git",
+	    "enable-poll-updates" : false
+        },
+
+        "typings-for-css-modules-loader" : {
+            "url" : "git@github.com:Jimdo/typings-for-css-modules-loader.git",
+	    "enable-poll-updates" : false
+        },
+
+        "generator-devkit-plugin" : {
+            "url" : "git@github.com:Jimdo/generator-devkit-plugin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "devkit-plugin-upload" : {
+            "url" : "git@github.com:Jimdo/devkit-plugin-upload.git",
+	    "enable-poll-updates" : false
+        },
+
+        "old-template-migration" : {
+            "url" : "git@github.com:Jimdo/old-template-migration.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-certs" : {
+            "url" : "git@github.com:Jimdo/wonderland-certs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-template" : {
+            "url" : "git@github.com:Jimdo/jimdo-template.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-crons" : {
+            "url" : "git@github.com:Jimdo/wonderland-crons.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-validator" : {
+            "url" : "git@github.com:Jimdo/wonderland-validator.git",
+	    "enable-poll-updates" : false
+        },
+
+        "web-https-certificate-provisioner" : {
+            "url" : "git@github.com:Jimdo/web-https-certificate-provisioner.git",
+	    "enable-poll-updates" : false
+        },
+
+        "stripe-event-metrics-gateway" : {
+            "url" : "git@github.com:Jimdo/stripe-event-metrics-gateway.git",
+	    "enable-poll-updates" : false
+        },
+
+        "https-url-upgrader" : {
+            "url" : "git@github.com:Jimdo/https-url-upgrader.git",
+	    "enable-poll-updates" : false
+        },
+
+        "react-deprecate-props" : {
+            "url" : "git@github.com:Jimdo/react-deprecate-props.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paymentteam-zendesk" : {
+            "url" : "git@github.com:Jimdo/paymentteam-zendesk.git",
+	    "enable-poll-updates" : false
+        },
+
+        "naked-lunch-api-docs" : {
+            "url" : "git@github.com:Jimdo/naked-lunch-api-docs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-prometheus-discovery" : {
+            "url" : "git@github.com:Jimdo/wonderland-prometheus-discovery.git",
+	    "enable-poll-updates" : false
+        },
+
+        "https-everywhere" : {
+            "url" : "git@github.com:Jimdo/https-everywhere.git",
+	    "enable-poll-updates" : false
+        },
+
+        "devkit-plugin-login" : {
+            "url" : "git@github.com:Jimdo/devkit-plugin-login.git",
+	    "enable-poll-updates" : false
+        },
+
+        "url_sanitizer" : {
+            "url" : "git@github.com:Jimdo/url_sanitizer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "web-https-proxy" : {
+            "url" : "git@github.com:Jimdo/web-https-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "designschmiede" : {
+            "url" : "git@github.com:Jimdo/designschmiede.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jim" : {
+            "url" : "git@github.com:Jimdo/jim.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-jenkins" : {
+            "url" : "git@github.com:Jimdo/data-jenkins.git",
+	    "enable-poll-updates" : false
+        },
+
+        "event-gateway" : {
+            "url" : "git@github.com:Jimdo/event-gateway.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-industry-dummies" : {
+            "url" : "git@github.com:Jimdo/jimdo-industry-dummies.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-collectd" : {
+            "url" : "git@github.com:Jimdo/wonderland-collectd.git",
+	    "enable-poll-updates" : false
+        },
+
+        "lego" : {
+            "url" : "git@github.com:Jimdo/lego.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-ecs-exporter" : {
+            "url" : "git@github.com:Jimdo/wonderland-ecs-exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "docker-dynamodb" : {
+            "url" : "git@github.com:Jimdo/docker-dynamodb.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ns-api-event-client-php" : {
+            "url" : "git@github.com:Jimdo/ns-api-event-client-php.git",
+	    "enable-poll-updates" : false
+        },
+
+        "docker-aws-apex" : {
+            "url" : "git@github.com:Jimdo/docker-aws-apex.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-elb-exporter" : {
+            "url" : "git@github.com:Jimdo/wonderland-elb-exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "freshness" : {
+            "url" : "git@github.com:Jimdo/freshness.git",
+	    "enable-poll-updates" : false
+        },
+
+        "lastpass-manage" : {
+            "url" : "git@github.com:Jimdo/lastpass-manage.git",
+	    "enable-poll-updates" : false
+        },
+
+        "aws-logs" : {
+            "url" : "git@github.com:Jimdo/aws-logs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-spam-chrome-extension" : {
+            "url" : "git@github.com:Jimdo/data-spam-chrome-extension.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-head-link-scanner" : {
+            "url" : "git@github.com:Jimdo/data-head-link-scanner.git",
+	    "enable-poll-updates" : false
+        },
+
+        "observatory-exporter" : {
+            "url" : "git@github.com:Jimdo/observatory-exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "aws-inventory" : {
+            "url" : "git@github.com:Jimdo/aws-inventory.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ns-billing-cloudwatch-exporter" : {
+            "url" : "git@github.com:Jimdo/ns-billing-cloudwatch-exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ns-api-notification-client-javascript" : {
+            "url" : "git@github.com:Jimdo/ns-api-notification-client-javascript.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-ecs-metadata" : {
+            "url" : "git@github.com:Jimdo/wonderland-ecs-metadata.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-prom-rulegen" : {
+            "url" : "git@github.com:Jimdo/wonderland-prom-rulegen.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-mandrill-webhook-endpoint" : {
+            "url" : "git@github.com:Jimdo/data-mandrill-webhook-endpoint.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-funnel-importer" : {
+            "url" : "git@github.com:Jimdo/data-funnel-importer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-email-endpoint" : {
+            "url" : "git@github.com:Jimdo/data-email-endpoint.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ns-circleci-exporter" : {
+            "url" : "git@github.com:Jimdo/ns-circleci-exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ns-handshake-monitor" : {
+            "url" : "git@github.com:Jimdo/ns-handshake-monitor.git",
+	    "enable-poll-updates" : false
+        },
+
+        "go-jwtauth" : {
+            "url" : "git@github.com:Jimdo/go-jwtauth.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ns-api" : {
+            "url" : "git@github.com:Jimdo/ns-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-service-prometheus-config-generator" : {
+            "url" : "git@github.com:Jimdo/wonderland-service-prometheus-config-generator.git",
+	    "enable-poll-updates" : false
+        },
+
+        "helpcenter-proxy" : {
+            "url" : "git@github.com:Jimdo/helpcenter-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-orcus" : {
+            "url" : "git@github.com:Jimdo/data-orcus.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cloudwatch-to-papertrail" : {
+            "url" : "git@github.com:Jimdo/cloudwatch-to-papertrail.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ns-notification-panel" : {
+            "url" : "git@github.com:Jimdo/ns-notification-panel.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-lambda-tracking-s3-bigquery" : {
+            "url" : "git@github.com:Jimdo/data-lambda-tracking-s3-bigquery.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-docs" : {
+            "url" : "git@github.com:Jimdo/data-docs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "user-account-service" : {
+            "url" : "git@github.com:Jimdo/user-account-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cms-backend" : {
+            "url" : "git@github.com:Jimdo/cms-backend.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cms-frontend" : {
+            "url" : "git@github.com:Jimdo/cms-frontend.git",
+	    "enable-poll-updates" : false
+        },
+
+        "zendesk-exporter" : {
+            "url" : "git@github.com:Jimdo/zendesk-exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-bigquery-runner" : {
+            "url" : "git@github.com:Jimdo/data-bigquery-runner.git",
+	    "enable-poll-updates" : false
+        },
+
+        "docker-pfff" : {
+            "url" : "git@github.com:Jimdo/docker-pfff.git",
+	    "enable-poll-updates" : false
+        },
+
+        "LiveChat-Android" : {
+            "url" : "git@github.com:Jimdo/LiveChat-Android.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-standalone" : {
+            "url" : "git@github.com:Jimdo/wonderland-standalone.git",
+	    "enable-poll-updates" : false
+        },
+
+        "docker-serverless-offline" : {
+            "url" : "git@github.com:Jimdo/docker-serverless-offline.git",
+	    "enable-poll-updates" : false
+        },
+
+        "LiveChat-CloudFunctions" : {
+            "url" : "git@github.com:Jimdo/LiveChat-CloudFunctions.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ns-api-cloudwatch-exporter" : {
+            "url" : "git@github.com:Jimdo/ns-api-cloudwatch-exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "github-team-ssh-keys" : {
+            "url" : "git@github.com:Jimdo/github-team-ssh-keys.git",
+	    "enable-poll-updates" : false
+        },
+
+        "snom-config" : {
+            "url" : "git@github.com:Jimdo/snom-config.git",
+	    "enable-poll-updates" : false
+        },
+
+        "chat-widget" : {
+            "url" : "git@github.com:Jimdo/chat-widget.git",
+	    "enable-poll-updates" : false
+        },
+
+        "serverless-dotenv" : {
+            "url" : "git@github.com:Jimdo/serverless-dotenv.git",
+	    "enable-poll-updates" : false
+        },
+
+        "storage" : {
+            "url" : "git@github.com:Jimdo/storage.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ns-onboarding" : {
+            "url" : "git@github.com:Jimdo/ns-onboarding.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sQucumber-redshift" : {
+            "url" : "git@github.com:Jimdo/sQucumber-redshift.git",
+	    "enable-poll-updates" : false
+        },
+
+        "api-proxy" : {
+            "url" : "git@github.com:Jimdo/api-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-travis-config" : {
+            "url" : "git@github.com:Jimdo/wonderland-travis-config.git",
+	    "enable-poll-updates" : false
+        },
+
+        "django-oidc-provider" : {
+            "url" : "git@github.com:Jimdo/django-oidc-provider.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-event-log-persister" : {
+            "url" : "git@github.com:Jimdo/data-event-log-persister.git",
+	    "enable-poll-updates" : false
+        },
+
+        "reportbook-docs" : {
+            "url" : "git@github.com:Jimdo/reportbook-docs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-scientist-assignment" : {
+            "url" : "git@github.com:Jimdo/data-scientist-assignment.git",
+	    "enable-poll-updates" : false
+        },
+
+        "logaggregator" : {
+            "url" : "git@github.com:Jimdo/logaggregator.git",
+	    "enable-poll-updates" : false
+        },
+
+        "event-dispatcher" : {
+            "url" : "git@github.com:Jimdo/event-dispatcher.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thrift-api-java" : {
+            "url" : "git@github.com:Jimdo/thrift-api-java.git",
+	    "enable-poll-updates" : false
+        },
+
+        "logbook" : {
+            "url" : "git@github.com:Jimdo/logbook.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-tracking-persister-lambda" : {
+            "url" : "git@github.com:Jimdo/data-tracking-persister-lambda.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-downloads-proxy" : {
+            "url" : "git@github.com:Jimdo/wonderland-downloads-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "openid-userinfo" : {
+            "url" : "git@github.com:Jimdo/openid-userinfo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "site-search" : {
+            "url" : "git@github.com:Jimdo/site-search.git",
+	    "enable-poll-updates" : false
+        },
+
+        "serverless-dynamodb-ttl" : {
+            "url" : "git@github.com:Jimdo/serverless-dynamodb-ttl.git",
+	    "enable-poll-updates" : false
+        },
+
+        "plugins-serverless" : {
+            "url" : "git@github.com:Jimdo/plugins-serverless.git",
+	    "enable-poll-updates" : false
+        },
+
+        "mvn-repo" : {
+            "url" : "git@github.com:Jimdo/mvn-repo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-event-log-end-to-end-test" : {
+            "url" : "git@github.com:Jimdo/data-event-log-end-to-end-test.git",
+	    "enable-poll-updates" : false
+        },
+
+        "boto" : {
+            "url" : "git@github.com:Jimdo/boto.git",
+	    "enable-poll-updates" : false
+        },
+
+        "s3-to-sqs-import-logs" : {
+            "url" : "git@github.com:Jimdo/s3-to-sqs-import-logs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-python-etl" : {
+            "url" : "git@github.com:Jimdo/data-python-etl.git",
+	    "enable-poll-updates" : false
+        },
+
+        "vault" : {
+            "url" : "git@github.com:Jimdo/vault.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dashboard" : {
+            "url" : "git@github.com:Jimdo/dashboard.git",
+	    "enable-poll-updates" : false
+        },
+
+        "powerdns_exporter" : {
+            "url" : "git@github.com:Jimdo/powerdns_exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nameserver-elasticip-handler" : {
+            "url" : "git@github.com:Jimdo/nameserver-elasticip-handler.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cms-pusher" : {
+            "url" : "git@github.com:Jimdo/cms-pusher.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-logbeat" : {
+            "url" : "git@github.com:Jimdo/wonderland-logbeat.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-oncall-sheet" : {
+            "url" : "git@github.com:Jimdo/wonderland-oncall-sheet.git",
+	    "enable-poll-updates" : false
+        },
+
+        "github-downloader" : {
+            "url" : "git@github.com:Jimdo/github-downloader.git",
+	    "enable-poll-updates" : false
+        },
+
+        "php-http-lib" : {
+            "url" : "git@github.com:Jimdo/php-http-lib.git",
+	    "enable-poll-updates" : false
+        },
+
+        "androidcommon" : {
+            "url" : "git@github.com:Jimdo/androidcommon.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-weather" : {
+            "url" : "git@github.com:Jimdo/data-weather.git",
+	    "enable-poll-updates" : false
+        },
+
+        "react-sortable-tree" : {
+            "url" : "git@github.com:Jimdo/react-sortable-tree.git",
+	    "enable-poll-updates" : false
+        },
+
+        "user-account-service-client-php" : {
+            "url" : "git@github.com:Jimdo/user-account-service-client-php.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-crm-service" : {
+            "url" : "git@github.com:Jimdo/data-crm-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-crm-info-getter" : {
+            "url" : "git@github.com:Jimdo/data-crm-info-getter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "korvike" : {
+            "url" : "git@github.com:Jimdo/korvike.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-event-log-persister-lambda" : {
+            "url" : "git@github.com:Jimdo/data-event-log-persister-lambda.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-fluentd-forwarder" : {
+            "url" : "git@github.com:Jimdo/wonderland-fluentd-forwarder.git",
+	    "enable-poll-updates" : false
+        },
+
+        "social-integration" : {
+            "url" : "git@github.com:Jimdo/social-integration.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdentity" : {
+            "url" : "git@github.com:Jimdo/jimdentity.git",
+	    "enable-poll-updates" : false
+        },
+
+        "user-account-exporter" : {
+            "url" : "git@github.com:Jimdo/user-account-exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-tableau-proxy" : {
+            "url" : "git@github.com:Jimdo/data-tableau-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "logrus" : {
+            "url" : "git@github.com:Jimdo/logrus.git",
+	    "enable-poll-updates" : false
+        },
+
+        "vault2env" : {
+            "url" : "git@github.com:Jimdo/vault2env.git",
+	    "enable-poll-updates" : false
+        },
+
+        "oauth2_proxy" : {
+            "url" : "git@github.com:Jimdo/oauth2_proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "serverless-dynamodb-local" : {
+            "url" : "git@github.com:Jimdo/serverless-dynamodb-local.git",
+	    "enable-poll-updates" : false
+        },
+
+        "draft-js" : {
+            "url" : "git@github.com:Jimdo/draft-js.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ecs-cid-sample" : {
+            "url" : "git@github.com:Jimdo/ecs-cid-sample.git",
+	    "enable-poll-updates" : false
+        },
+
+        "user-account-translations" : {
+            "url" : "git@github.com:Jimdo/user-account-translations.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-ecs-oom-notifications" : {
+            "url" : "git@github.com:Jimdo/wonderland-ecs-oom-notifications.git",
+	    "enable-poll-updates" : false
+        },
+
+        "social-integration-analysis" : {
+            "url" : "git@github.com:Jimdo/social-integration-analysis.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-event-logger" : {
+            "url" : "git@github.com:Jimdo/data-event-logger.git",
+	    "enable-poll-updates" : false
+        },
+
+        "subscriptions" : {
+            "url" : "git@github.com:Jimdo/subscriptions.git",
+	    "enable-poll-updates" : false
+        },
+
+        "docker-lambda" : {
+            "url" : "git@github.com:Jimdo/docker-lambda.git",
+	    "enable-poll-updates" : false
+        },
+
+        "serverless-python-individually" : {
+            "url" : "git@github.com:Jimdo/serverless-python-individually.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-logzio-alerts" : {
+            "url" : "git@github.com:Jimdo/wonderland-logzio-alerts.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ansible-logzio-alert" : {
+            "url" : "git@github.com:Jimdo/ansible-logzio-alert.git",
+	    "enable-poll-updates" : false
+        },
+
+        "amazon-ecs-agent" : {
+            "url" : "git@github.com:Jimdo/amazon-ecs-agent.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-internetx-domain-info-getter" : {
+            "url" : "git@github.com:Jimdo/data-internetx-domain-info-getter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "website-screenshot-service" : {
+            "url" : "git@github.com:Jimdo/website-screenshot-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "aws-health-exporter" : {
+            "url" : "git@github.com:Jimdo/aws-health-exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "user-account-login-check" : {
+            "url" : "git@github.com:Jimdo/user-account-login-check.git",
+	    "enable-poll-updates" : false
+        },
+
+        "tableau" : {
+            "url" : "git@github.com:Jimdo/tableau.git",
+	    "enable-poll-updates" : false
+        },
+
+        "site-search-client-php" : {
+            "url" : "git@github.com:Jimdo/site-search-client-php.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dolphin-infrastructure" : {
+            "url" : "git@github.com:Jimdo/dolphin-infrastructure.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dolphin-bookmarklets" : {
+            "url" : "git@github.com:Jimdo/dolphin-bookmarklets.git",
+	    "enable-poll-updates" : false
+        },
+
+        "swagger-ui" : {
+            "url" : "git@github.com:Jimdo/swagger-ui.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nemo-progress-playground" : {
+            "url" : "git@github.com:Jimdo/nemo-progress-playground.git",
+	    "enable-poll-updates" : false
+        },
+
+        "shared-go" : {
+            "url" : "git@github.com:Jimdo/shared-go.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nemo-profile-enricher" : {
+            "url" : "git@github.com:Jimdo/nemo-profile-enricher.git",
+	    "enable-poll-updates" : false
+        },
+
+        "django-prometheus-metrics" : {
+            "url" : "git@github.com:Jimdo/django-prometheus-metrics.git",
+	    "enable-poll-updates" : false
+        },
+
+        "facebook-lwi-tracking-exporter" : {
+            "url" : "git@github.com:Jimdo/facebook-lwi-tracking-exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "LiveChat-iOS" : {
+            "url" : "git@github.com:Jimdo/LiveChat-iOS.git",
+	    "enable-poll-updates" : false
+        },
+
+        "django-sequences" : {
+            "url" : "git@github.com:Jimdo/django-sequences.git",
+	    "enable-poll-updates" : false
+        },
+
+        "grafana-proxy" : {
+            "url" : "git@github.com:Jimdo/grafana-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "business-profile-service" : {
+            "url" : "git@github.com:Jimdo/business-profile-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "run-blob-script-in-wl" : {
+            "url" : "git@github.com:Jimdo/run-blob-script-in-wl.git",
+	    "enable-poll-updates" : false
+        },
+
+        "on-call-dashboard-v2" : {
+            "url" : "git@github.com:Jimdo/on-call-dashboard-v2.git",
+	    "enable-poll-updates" : false
+        },
+
+        "payment-subscription-prototype" : {
+            "url" : "git@github.com:Jimdo/payment-subscription-prototype.git",
+	    "enable-poll-updates" : false
+        },
+
+        "zendesk-help-center-theme" : {
+            "url" : "git@github.com:Jimdo/zendesk-help-center-theme.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-aws-janitor" : {
+            "url" : "git@github.com:Jimdo/wonderland-aws-janitor.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-subscription-prototype" : {
+            "url" : "git@github.com:Jimdo/creator-subscription-prototype.git",
+	    "enable-poll-updates" : false
+        },
+
+        "django-day-paul" : {
+            "url" : "git@github.com:Jimdo/django-day-paul.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cronitor-api-client" : {
+            "url" : "git@github.com:Jimdo/cronitor-api-client.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dolphin-postgres-aurora-migration" : {
+            "url" : "git@github.com:Jimdo/dolphin-postgres-aurora-migration.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paymentteam-dolphin-domains" : {
+            "url" : "git@github.com:Jimdo/paymentteam-dolphin-domains.git",
+	    "enable-poll-updates" : false
+        },
+
+        "chatbot" : {
+            "url" : "git@github.com:Jimdo/chatbot.git",
+	    "enable-poll-updates" : false
+        },
+
+        "irondome" : {
+            "url" : "git@github.com:Jimdo/irondome.git",
+	    "enable-poll-updates" : false
+        },
+
+        "swagger-codegen" : {
+            "url" : "git@github.com:Jimdo/swagger-codegen.git",
+	    "enable-poll-updates" : false
+        },
+
+        "interview-task-form" : {
+            "url" : "git@github.com:Jimdo/interview-task-form.git",
+	    "enable-poll-updates" : false
+        },
+
+        "partner-api" : {
+            "url" : "git@github.com:Jimdo/partner-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "double-opt-in-email" : {
+            "url" : "git@github.com:Jimdo/double-opt-in-email.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ui" : {
+            "url" : "git@github.com:Jimdo/ui.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-activity-log-persister" : {
+            "url" : "git@github.com:Jimdo/data-activity-log-persister.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-activity-log-persister-lambda" : {
+            "url" : "git@github.com:Jimdo/data-activity-log-persister-lambda.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nemo-vw-proxy" : {
+            "url" : "git@github.com:Jimdo/nemo-vw-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "iOSCertificates" : {
+            "url" : "git@github.com:Jimdo/iOSCertificates.git",
+	    "enable-poll-updates" : false
+        },
+
+        "console-search-api" : {
+            "url" : "git@github.com:Jimdo/console-search-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "typed-css-modules-loader" : {
+            "url" : "git@github.com:Jimdo/typed-css-modules-loader.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dory" : {
+            "url" : "git@github.com:Jimdo/dory.git",
+	    "enable-poll-updates" : false
+        },
+
+        "console-api" : {
+            "url" : "git@github.com:Jimdo/console-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "console-ui" : {
+            "url" : "git@github.com:Jimdo/console-ui.git",
+	    "enable-poll-updates" : false
+        },
+
+        "console-search-adder" : {
+            "url" : "git@github.com:Jimdo/console-search-adder.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dolphin-vs-creator-controller" : {
+            "url" : "git@github.com:Jimdo/dolphin-vs-creator-controller.git",
+	    "enable-poll-updates" : false
+        },
+
+        "maxmind-geoip-db-fetcher" : {
+            "url" : "git@github.com:Jimdo/maxmind-geoip-db-fetcher.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sendgrid-unsubscribe-redirect-url" : {
+            "url" : "git@github.com:Jimdo/sendgrid-unsubscribe-redirect-url.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dolphin-devbox" : {
+            "url" : "git@github.com:Jimdo/dolphin-devbox.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dolphin-monitor" : {
+            "url" : "git@github.com:Jimdo/dolphin-monitor.git",
+	    "enable-poll-updates" : false
+        },
+
+        "google-fonts-proxy-exporter" : {
+            "url" : "git@github.com:Jimdo/google-fonts-proxy-exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "picturefill" : {
+            "url" : "git@github.com:Jimdo/picturefill.git",
+	    "enable-poll-updates" : false
+        },
+
+        "docker-aws-python" : {
+            "url" : "git@github.com:Jimdo/docker-aws-python.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cloudflare-go" : {
+            "url" : "git@github.com:Jimdo/cloudflare-go.git",
+	    "enable-poll-updates" : false
+        },
+
+        "loadtest-configuration" : {
+            "url" : "git@github.com:Jimdo/loadtest-configuration.git",
+	    "enable-poll-updates" : false
+        },
+
+        "docker-golang-dep" : {
+            "url" : "git@github.com:Jimdo/docker-golang-dep.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-subscribe-unsubscribe-user-for-support" : {
+            "url" : "git@github.com:Jimdo/data-subscribe-unsubscribe-user-for-support.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sqs-to-kinesis-publish" : {
+            "url" : "git@github.com:Jimdo/sqs-to-kinesis-publish.git",
+	    "enable-poll-updates" : false
+        },
+
+        "update-cookie-policy" : {
+            "url" : "git@github.com:Jimdo/update-cookie-policy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "docker-aws-node" : {
+            "url" : "git@github.com:Jimdo/docker-aws-node.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cloudflare-exporter" : {
+            "url" : "git@github.com:Jimdo/cloudflare-exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gdpr-templates" : {
+            "url" : "git@github.com:Jimdo/gdpr-templates.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dolphin-cms-local-dev-switcher" : {
+            "url" : "git@github.com:Jimdo/dolphin-cms-local-dev-switcher.git",
+	    "enable-poll-updates" : false
+        },
+
+        "domain-email-settings-service" : {
+            "url" : "git@github.com:Jimdo/domain-email-settings-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "billing" : {
+            "url" : "git@github.com:Jimdo/billing.git",
+	    "enable-poll-updates" : false
+        },
+
+        "store" : {
+            "url" : "git@github.com:Jimdo/store.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dashboard-api" : {
+            "url" : "git@github.com:Jimdo/dashboard-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "interview-task-dns-backend" : {
+            "url" : "git@github.com:Jimdo/interview-task-dns-backend.git",
+	    "enable-poll-updates" : false
+        },
+
+        "trix" : {
+            "url" : "git@github.com:Jimdo/trix.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-clair" : {
+            "url" : "git@github.com:Jimdo/wonderland-clair.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-facebook-lwi-insights" : {
+            "url" : "git@github.com:Jimdo/data-facebook-lwi-insights.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dash" : {
+            "url" : "git@github.com:Jimdo/dash.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cloudwatch_exporter" : {
+            "url" : "git@github.com:Jimdo/cloudwatch_exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "vowpal_wabbit" : {
+            "url" : "git@github.com:Jimdo/vowpal_wabbit.git",
+	    "enable-poll-updates" : false
+        },
+
+        "user-account-authentication-proxy" : {
+            "url" : "git@github.com:Jimdo/user-account-authentication-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nemo-topic-modeling" : {
+            "url" : "git@github.com:Jimdo/nemo-topic-modeling.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thrift-api-ts" : {
+            "url" : "git@github.com:Jimdo/thrift-api-ts.git",
+	    "enable-poll-updates" : false
+        },
+
+        "Boilerplate-iOS-App" : {
+            "url" : "git@github.com:Jimdo/Boilerplate-iOS-App.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nemo-customization-service-kt" : {
+            "url" : "git@github.com:Jimdo/nemo-customization-service-kt.git",
+	    "enable-poll-updates" : false
+        },
+
+        "user-account-service-client-ts" : {
+            "url" : "git@github.com:Jimdo/user-account-service-client-ts.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-clair-notifications" : {
+            "url" : "git@github.com:Jimdo/wonderland-clair-notifications.git",
+	    "enable-poll-updates" : false
+        },
+
+        "kt-graphql-playground" : {
+            "url" : "git@github.com:Jimdo/kt-graphql-playground.git",
+	    "enable-poll-updates" : false
+        },
+
+        "JimdoAuthentication" : {
+            "url" : "git@github.com:Jimdo/JimdoAuthentication.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dashboard-survey-controller" : {
+            "url" : "git@github.com:Jimdo/dashboard-survey-controller.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nav-demo" : {
+            "url" : "git@github.com:Jimdo/nav-demo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-dolphin-website-content-analysis" : {
+            "url" : "git@github.com:Jimdo/data-dolphin-website-content-analysis.git",
+	    "enable-poll-updates" : false
+        },
+
+        "user-account-deletion-bot" : {
+            "url" : "git@github.com:Jimdo/user-account-deletion-bot.git",
+	    "enable-poll-updates" : false
+        },
+
+        "Boost-iOS" : {
+            "url" : "git@github.com:Jimdo/Boost-iOS.git",
+	    "enable-poll-updates" : false
+        },
+
+        "aDory" : {
+            "url" : "git@github.com:Jimdo/aDory.git",
+	    "enable-poll-updates" : false
+        },
+
+        "StoriesProgressBar" : {
+            "url" : "git@github.com:Jimdo/StoriesProgressBar.git",
+	    "enable-poll-updates" : false
+        },
+
+        "form" : {
+            "url" : "git@github.com:Jimdo/form.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dolphin-mail-settings" : {
+            "url" : "git@github.com:Jimdo/dolphin-mail-settings.git",
+	    "enable-poll-updates" : false
+        },
+
+        "website-metadata-service" : {
+            "url" : "git@github.com:Jimdo/website-metadata-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nemo-template-text-service" : {
+            "url" : "git@github.com:Jimdo/nemo-template-text-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "express-thrift" : {
+            "url" : "git@github.com:Jimdo/express-thrift.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thrift-generator-typescript" : {
+            "url" : "git@github.com:Jimdo/thrift-generator-typescript.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dory-backend" : {
+            "url" : "git@github.com:Jimdo/dory-backend.git",
+	    "enable-poll-updates" : false
+        },
+
+        "discounts" : {
+            "url" : "git@github.com:Jimdo/discounts.git",
+	    "enable-poll-updates" : false
+        },
+
+        "statistics-service" : {
+            "url" : "git@github.com:Jimdo/statistics-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "lemon-one-webhook-service" : {
+            "url" : "git@github.com:Jimdo/lemon-one-webhook-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "destalinator" : {
+            "url" : "git@github.com:Jimdo/destalinator.git",
+	    "enable-poll-updates" : false
+        },
+
+        "website-traffic-generator-service" : {
+            "url" : "git@github.com:Jimdo/website-traffic-generator-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "image-scaling-demo" : {
+            "url" : "git@github.com:Jimdo/image-scaling-demo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "reg" : {
+            "url" : "git@github.com:Jimdo/reg.git",
+	    "enable-poll-updates" : false
+        },
+
+        "Dory-CloudFunctions" : {
+            "url" : "git@github.com:Jimdo/Dory-CloudFunctions.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paymentteam-tools" : {
+            "url" : "git@github.com:Jimdo/paymentteam-tools.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-geolocation-api" : {
+            "url" : "git@github.com:Jimdo/data-geolocation-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-import-braze-s3-sqs" : {
+            "url" : "git@github.com:Jimdo/data-import-braze-s3-sqs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-ts" : {
+            "url" : "git@github.com:Jimdo/wonderland-ts.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thrift-client-generator-service" : {
+            "url" : "git@github.com:Jimdo/thrift-client-generator-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "zendesk-highest-package-hook" : {
+            "url" : "git@github.com:Jimdo/zendesk-highest-package-hook.git",
+	    "enable-poll-updates" : false
+        },
+
+        "slideshow-demo" : {
+            "url" : "git@github.com:Jimdo/slideshow-demo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "easy-marketing-integration" : {
+            "url" : "git@github.com:Jimdo/easy-marketing-integration.git",
+	    "enable-poll-updates" : false
+        },
+
+        "affiliate-reporter" : {
+            "url" : "git@github.com:Jimdo/affiliate-reporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "tex-renderer" : {
+            "url" : "git@github.com:Jimdo/tex-renderer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nemo-category-prediction" : {
+            "url" : "git@github.com:Jimdo/nemo-category-prediction.git",
+	    "enable-poll-updates" : false
+        },
+
+        "careers-jimdo-com" : {
+            "url" : "git@github.com:Jimdo/careers-jimdo-com.git",
+	    "enable-poll-updates" : false
+        },
+
+        "email-settings-service" : {
+            "url" : "git@github.com:Jimdo/email-settings-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "customer-communications" : {
+            "url" : "git@github.com:Jimdo/customer-communications.git",
+	    "enable-poll-updates" : false
+        },
+
+        "tracing-service" : {
+            "url" : "git@github.com:Jimdo/tracing-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "history" : {
+            "url" : "git@github.com:Jimdo/history.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nemo-backend-proxy" : {
+            "url" : "git@github.com:Jimdo/nemo-backend-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gh-actions-wonderland-example" : {
+            "url" : "git@github.com:Jimdo/gh-actions-wonderland-example.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gh-actions-lambda-example" : {
+            "url" : "git@github.com:Jimdo/gh-actions-lambda-example.git",
+	    "enable-poll-updates" : false
+        },
+
+        "test-ardi" : {
+            "url" : "git@github.com:Jimdo/test-ardi.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dash-website-perf-tracker" : {
+            "url" : "git@github.com:Jimdo/dash-website-perf-tracker.git",
+	    "enable-poll-updates" : false
+        },
+
+        "redux-loop" : {
+            "url" : "git@github.com:Jimdo/redux-loop.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ModelBuilderWeka" : {
+            "url" : "git@github.com:Jimdo/ModelBuilderWeka.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gomod-dependabot-test-repo" : {
+            "url" : "git@github.com:Jimdo/gomod-dependabot-test-repo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "listing-service" : {
+            "url" : "git@github.com:Jimdo/listing-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "MSCWeka" : {
+            "url" : "git@github.com:Jimdo/MSCWeka.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nginx-to-cloudwatch" : {
+            "url" : "git@github.com:Jimdo/nginx-to-cloudwatch.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cms-auth-proxy" : {
+            "url" : "git@github.com:Jimdo/cms-auth-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "acm" : {
+            "url" : "git@github.com:Jimdo/acm.git",
+	    "enable-poll-updates" : false
+        },
+
+        "tracking-proxy" : {
+            "url" : "git@github.com:Jimdo/tracking-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "unsplash-tracking" : {
+            "url" : "git@github.com:Jimdo/unsplash-tracking.git",
+	    "enable-poll-updates" : false
+        },
+
+        "access-rights" : {
+            "url" : "git@github.com:Jimdo/access-rights.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nemo-website-variation" : {
+            "url" : "git@github.com:Jimdo/nemo-website-variation.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-tracking-persister" : {
+            "url" : "git@github.com:Jimdo/data-tracking-persister.git",
+	    "enable-poll-updates" : false
+        },
+
+        "fb-ads-wizard" : {
+            "url" : "git@github.com:Jimdo/fb-ads-wizard.git",
+	    "enable-poll-updates" : false
+        },
+
+        "thrift-cli" : {
+            "url" : "git@github.com:Jimdo/thrift-cli.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-event-log" : {
+            "url" : "git@github.com:Jimdo/data-event-log.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-docker-airflow" : {
+            "url" : "git@github.com:Jimdo/data-docker-airflow.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-tracking-persister-firehose-lambda" : {
+            "url" : "git@github.com:Jimdo/data-tracking-persister-firehose-lambda.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paymentteam-metabase" : {
+            "url" : "git@github.com:Jimdo/paymentteam-metabase.git",
+	    "enable-poll-updates" : false
+        },
+
+        "website-locker" : {
+            "url" : "git@github.com:Jimdo/website-locker.git",
+	    "enable-poll-updates" : false
+        },
+
+        "powerdns-dolphin-remote-backend" : {
+            "url" : "git@github.com:Jimdo/powerdns-dolphin-remote-backend.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-backup-tableau-workbooks" : {
+            "url" : "git@github.com:Jimdo/data-backup-tableau-workbooks.git",
+	    "enable-poll-updates" : false
+        },
+
+        "legal-text-generator" : {
+            "url" : "git@github.com:Jimdo/legal-text-generator.git",
+	    "enable-poll-updates" : false
+        },
+
+        "aws-solutions-architect-prep" : {
+            "url" : "git@github.com:Jimdo/aws-solutions-architect-prep.git",
+	    "enable-poll-updates" : false
+        },
+
+        "behavior-profile-exploratory-scripts" : {
+            "url" : "git@github.com:Jimdo/behavior-profile-exploratory-scripts.git",
+	    "enable-poll-updates" : false
+        },
+
+        "tooltip" : {
+            "url" : "git@github.com:Jimdo/tooltip.git",
+	    "enable-poll-updates" : false
+        },
+
+        "interview-task-full-stack" : {
+            "url" : "git@github.com:Jimdo/interview-task-full-stack.git",
+	    "enable-poll-updates" : false
+        },
+
+        "www" : {
+            "url" : "git@github.com:Jimdo/www.git",
+	    "enable-poll-updates" : false
+        },
+
+        "upgrade-frontend" : {
+            "url" : "git@github.com:Jimdo/upgrade-frontend.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-react-testing" : {
+            "url" : "git@github.com:Jimdo/jimdo-react-testing.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-website-metrics-tracker" : {
+            "url" : "git@github.com:Jimdo/data-website-metrics-tracker.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nemo-research" : {
+            "url" : "git@github.com:Jimdo/nemo-research.git",
+	    "enable-poll-updates" : false
+        },
+
+        "spike-logo-builder" : {
+            "url" : "git@github.com:Jimdo/spike-logo-builder.git",
+	    "enable-poll-updates" : false
+        },
+
+        "spike-text-to-svg" : {
+            "url" : "git@github.com:Jimdo/spike-text-to-svg.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-architecture-review" : {
+            "url" : "git@github.com:Jimdo/wonderland-architecture-review.git",
+	    "enable-poll-updates" : false
+        },
+
+        "logo-tool" : {
+            "url" : "git@github.com:Jimdo/logo-tool.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nemo-image-matching" : {
+            "url" : "git@github.com:Jimdo/nemo-image-matching.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gh-NeutronStars" : {
+            "url" : "git@github.com:Jimdo/gh-NeutronStars.git",
+	    "enable-poll-updates" : false
+        },
+
+        "boost-resources" : {
+            "url" : "git@github.com:Jimdo/boost-resources.git",
+	    "enable-poll-updates" : false
+        },
+
+        "payment-onboarding-dennis" : {
+            "url" : "git@github.com:Jimdo/payment-onboarding-dennis.git",
+	    "enable-poll-updates" : false
+        },
+
+        "text-to-svg" : {
+            "url" : "git@github.com:Jimdo/text-to-svg.git",
+	    "enable-poll-updates" : false
+        },
+
+        "logo-service" : {
+            "url" : "git@github.com:Jimdo/logo-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wizard-alerting" : {
+            "url" : "git@github.com:Jimdo/wizard-alerting.git",
+	    "enable-poll-updates" : false
+        },
+
+        "vscode-logo-tool-helper" : {
+            "url" : "git@github.com:Jimdo/vscode-logo-tool-helper.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-website-metrics-tracker-load-tester" : {
+            "url" : "git@github.com:Jimdo/data-website-metrics-tracker-load-tester.git",
+	    "enable-poll-updates" : false
+        },
+
+        "console-audit-logs" : {
+            "url" : "git@github.com:Jimdo/console-audit-logs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "RichEditorView" : {
+            "url" : "git@github.com:Jimdo/RichEditorView.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-name-com-importer" : {
+            "url" : "git@github.com:Jimdo/data-name-com-importer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cms-frontend-api" : {
+            "url" : "git@github.com:Jimdo/cms-frontend-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "kotlin-ktor-koin-template" : {
+            "url" : "git@github.com:Jimdo/kotlin-ktor-koin-template.git",
+	    "enable-poll-updates" : false
+        },
+
+        "catalog" : {
+            "url" : "git@github.com:Jimdo/catalog.git",
+	    "enable-poll-updates" : false
+        },
+
+        "order" : {
+            "url" : "git@github.com:Jimdo/order.git",
+	    "enable-poll-updates" : false
+        },
+
+        "feature" : {
+            "url" : "git@github.com:Jimdo/feature.git",
+	    "enable-poll-updates" : false
+        },
+
+        "legal-text-generator-survey-engine" : {
+            "url" : "git@github.com:Jimdo/legal-text-generator-survey-engine.git",
+	    "enable-poll-updates" : false
+        },
+
+        "batch_sendout" : {
+            "url" : "git@github.com:Jimdo/batch_sendout.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-portus-user-removal" : {
+            "url" : "git@github.com:Jimdo/wonderland-portus-user-removal.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cms-session-lock" : {
+            "url" : "git@github.com:Jimdo/cms-session-lock.git",
+	    "enable-poll-updates" : false
+        },
+
+        "upgrade-frontend-api" : {
+            "url" : "git@github.com:Jimdo/upgrade-frontend-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nlp-api" : {
+            "url" : "git@github.com:Jimdo/nlp-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "nlp-fasttext" : {
+            "url" : "git@github.com:Jimdo/nlp-fasttext.git",
+	    "enable-poll-updates" : false
+        },
+
+        "interview-task-code-puzzlers" : {
+            "url" : "git@github.com:Jimdo/interview-task-code-puzzlers.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-firebase" : {
+            "url" : "git@github.com:Jimdo/creator-firebase.git",
+	    "enable-poll-updates" : false
+        },
+
+        "tune-poc" : {
+            "url" : "git@github.com:Jimdo/tune-poc.git",
+	    "enable-poll-updates" : false
+        },
+
+        "lunchbuddy-flutter" : {
+            "url" : "git@github.com:Jimdo/lunchbuddy-flutter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "tracking-linter" : {
+            "url" : "git@github.com:Jimdo/tracking-linter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-website-metrics-tracker-s3-to-sqs" : {
+            "url" : "git@github.com:Jimdo/data-website-metrics-tracker-s3-to-sqs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-website-metrics-tracker-logs-importer" : {
+            "url" : "git@github.com:Jimdo/data-website-metrics-tracker-logs-importer.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-acl" : {
+            "url" : "git@github.com:Jimdo/data-acl.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-comprehend" : {
+            "url" : "git@github.com:Jimdo/data-comprehend.git",
+	    "enable-poll-updates" : false
+        },
+
+        "store-feature-provider" : {
+            "url" : "git@github.com:Jimdo/store-feature-provider.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dunning" : {
+            "url" : "git@github.com:Jimdo/dunning.git",
+	    "enable-poll-updates" : false
+        },
+
+        "frontend-tracking" : {
+            "url" : "git@github.com:Jimdo/frontend-tracking.git",
+	    "enable-poll-updates" : false
+        },
+
+        "PanModal" : {
+            "url" : "git@github.com:Jimdo/PanModal.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cms-websiteversion-aws-glue-etl" : {
+            "url" : "git@github.com:Jimdo/cms-websiteversion-aws-glue-etl.git",
+	    "enable-poll-updates" : false
+        },
+
+        "payment-e2e" : {
+            "url" : "git@github.com:Jimdo/payment-e2e.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cookie-banner" : {
+            "url" : "git@github.com:Jimdo/cookie-banner.git",
+	    "enable-poll-updates" : false
+        },
+
+        "lc-server-pricing-api" : {
+            "url" : "git@github.com:Jimdo/lc-server-pricing-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-example-hello-world" : {
+            "url" : "git@github.com:Jimdo/wonderland-example-hello-world.git",
+	    "enable-poll-updates" : false
+        },
+
+        "gatsby" : {
+            "url" : "git@github.com:Jimdo/gatsby.git",
+	    "enable-poll-updates" : false
+        },
+
+        "website-data-diff-concept" : {
+            "url" : "git@github.com:Jimdo/website-data-diff-concept.git",
+	    "enable-poll-updates" : false
+        },
+
+        "global-collect-wrong-report-helper" : {
+            "url" : "git@github.com:Jimdo/global-collect-wrong-report-helper.git",
+	    "enable-poll-updates" : false
+        },
+
+        "iOS-Shop" : {
+            "url" : "git@github.com:Jimdo/iOS-Shop.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland2" : {
+            "url" : "git@github.com:Jimdo/wonderland2.git",
+	    "enable-poll-updates" : false
+        },
+
+        "url-shortener" : {
+            "url" : "git@github.com:Jimdo/url-shortener.git",
+	    "enable-poll-updates" : false
+        },
+
+        "github-exporter" : {
+            "url" : "git@github.com:Jimdo/github-exporter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-example-python" : {
+            "url" : "git@github.com:Jimdo/wonderland-example-python.git",
+	    "enable-poll-updates" : false
+        },
+
+        "console-event-handler" : {
+            "url" : "git@github.com:Jimdo/console-event-handler.git",
+	    "enable-poll-updates" : false
+        },
+
+        "packages" : {
+            "url" : "git@github.com:Jimdo/packages.git",
+	    "enable-poll-updates" : false
+        },
+
+        "payment-group-common" : {
+            "url" : "git@github.com:Jimdo/payment-group-common.git",
+	    "enable-poll-updates" : false
+        },
+
+        "operational-readiness" : {
+            "url" : "git@github.com:Jimdo/operational-readiness.git",
+	    "enable-poll-updates" : false
+        },
+
+        "coroutines-examples" : {
+            "url" : "git@github.com:Jimdo/coroutines-examples.git",
+	    "enable-poll-updates" : false
+        },
+
+        "payment-http-services" : {
+            "url" : "git@github.com:Jimdo/payment-http-services.git",
+	    "enable-poll-updates" : false
+        },
+
+        "invoice-download-poc" : {
+            "url" : "git@github.com:Jimdo/invoice-download-poc.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-coffee-proxy" : {
+            "url" : "git@github.com:Jimdo/wonderland-coffee-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "great_expectations" : {
+            "url" : "git@github.com:Jimdo/great_expectations.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dolphin-growth-api" : {
+            "url" : "git@github.com:Jimdo/dolphin-growth-api.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-aws-ec2-abuse-notification" : {
+            "url" : "git@github.com:Jimdo/wonderland-aws-ec2-abuse-notification.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-competitor-analysis" : {
+            "url" : "git@github.com:Jimdo/data-competitor-analysis.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paymentgroup-documentation" : {
+            "url" : "git@github.com:Jimdo/paymentgroup-documentation.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jlink-workshop-examples" : {
+            "url" : "git@github.com:Jimdo/jlink-workshop-examples.git",
+	    "enable-poll-updates" : false
+        },
+
+        "mato-dev-box" : {
+            "url" : "git@github.com:Jimdo/mato-dev-box.git",
+	    "enable-poll-updates" : false
+        },
+
+        "automatic-support-ticket-classification" : {
+            "url" : "git@github.com:Jimdo/automatic-support-ticket-classification.git",
+	    "enable-poll-updates" : false
+        },
+
+        "feature-flags-proxy" : {
+            "url" : "git@github.com:Jimdo/feature-flags-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "go-linter" : {
+            "url" : "git@github.com:Jimdo/go-linter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "get-npm-token" : {
+            "url" : "git@github.com:Jimdo/get-npm-token.git",
+	    "enable-poll-updates" : false
+        },
+
+        "feature-store" : {
+            "url" : "git@github.com:Jimdo/feature-store.git",
+	    "enable-poll-updates" : false
+        },
+
+        "Billing-Investigation-PM-Collection" : {
+            "url" : "git@github.com:Jimdo/Billing-Investigation-PM-Collection.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dwh-data-model" : {
+            "url" : "git@github.com:Jimdo/dwh-data-model.git",
+	    "enable-poll-updates" : false
+        },
+
+        "store-data-analysis" : {
+            "url" : "git@github.com:Jimdo/store-data-analysis.git",
+	    "enable-poll-updates" : false
+        },
+
+        "checkout-statecharts" : {
+            "url" : "git@github.com:Jimdo/checkout-statecharts.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-tableau-workbooks" : {
+            "url" : "git@github.com:Jimdo/data-tableau-workbooks.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-airflow-wl" : {
+            "url" : "git@github.com:Jimdo/data-airflow-wl.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-infra-modules" : {
+            "url" : "git@github.com:Jimdo/data-infra-modules.git",
+	    "enable-poll-updates" : false
+        },
+
+        "spike-websitedata-storage" : {
+            "url" : "git@github.com:Jimdo/spike-websitedata-storage.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-infra-stage" : {
+            "url" : "git@github.com:Jimdo/data-infra-stage.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-prototype-etl" : {
+            "url" : "git@github.com:Jimdo/data-prototype-etl.git",
+	    "enable-poll-updates" : false
+        },
+
+        "architecutre-introduction" : {
+            "url" : "git@github.com:Jimdo/architecutre-introduction.git",
+	    "enable-poll-updates" : false
+        },
+
+        "incident-handling" : {
+            "url" : "git@github.com:Jimdo/incident-handling.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-checkpoint-service" : {
+            "url" : "git@github.com:Jimdo/data-checkpoint-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-zendesk-edge" : {
+            "url" : "git@github.com:Jimdo/data-zendesk-edge.git",
+	    "enable-poll-updates" : false
+        },
+
+        "mato-hugo-site" : {
+            "url" : "git@github.com:Jimdo/mato-hugo-site.git",
+	    "enable-poll-updates" : false
+        },
+
+        "stripe_payment_methods_test_client" : {
+            "url" : "git@github.com:Jimdo/stripe_payment_methods_test_client.git",
+	    "enable-poll-updates" : false
+        },
+
+        "checkout" : {
+            "url" : "git@github.com:Jimdo/checkout.git",
+	    "enable-poll-updates" : false
+        },
+
+        "experiment-platform" : {
+            "url" : "git@github.com:Jimdo/experiment-platform.git",
+	    "enable-poll-updates" : false
+        },
+
+        "pricing-components" : {
+            "url" : "git@github.com:Jimdo/pricing-components.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ci-to-slack" : {
+            "url" : "git@github.com:Jimdo/ci-to-slack.git",
+	    "enable-poll-updates" : false
+        },
+
+        "interview-task-dns-backend-sre" : {
+            "url" : "git@github.com:Jimdo/interview-task-dns-backend-sre.git",
+	    "enable-poll-updates" : false
+        },
+
+        "interview-task-dns-backend-security" : {
+            "url" : "git@github.com:Jimdo/interview-task-dns-backend-security.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paylload" : {
+            "url" : "git@github.com:Jimdo/paylload.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dolphin-cleanup-branch-deploy" : {
+            "url" : "git@github.com:Jimdo/dolphin-cleanup-branch-deploy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-infra-scripts" : {
+            "url" : "git@github.com:Jimdo/data-infra-scripts.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-domain-frontend-poc" : {
+            "url" : "git@github.com:Jimdo/jimdo-domain-frontend-poc.git",
+	    "enable-poll-updates" : false
+        },
+
+        "repository-dashboard" : {
+            "url" : "git@github.com:Jimdo/repository-dashboard.git",
+	    "enable-poll-updates" : false
+        },
+
+        "domains-service-stage-alti-testing" : {
+            "url" : "git@github.com:Jimdo/domains-service-stage-alti-testing.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland2-k8s-operator" : {
+            "url" : "git@github.com:Jimdo/wonderland2-k8s-operator.git",
+	    "enable-poll-updates" : false
+        },
+
+        "domains-sonarqube" : {
+            "url" : "git@github.com:Jimdo/domains-sonarqube.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland2-github-k8s-user-service" : {
+            "url" : "git@github.com:Jimdo/wonderland2-github-k8s-user-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-infra-pipeline-example" : {
+            "url" : "git@github.com:Jimdo/data-infra-pipeline-example.git",
+	    "enable-poll-updates" : false
+        },
+
+        "domains-poc-alti" : {
+            "url" : "git@github.com:Jimdo/domains-poc-alti.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jaeger-logzio-collector" : {
+            "url" : "git@github.com:Jimdo/jaeger-logzio-collector.git",
+	    "enable-poll-updates" : false
+        },
+
+        "domains-api-alti-poc" : {
+            "url" : "git@github.com:Jimdo/domains-api-alti-poc.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sonarqube-server" : {
+            "url" : "git@github.com:Jimdo/sonarqube-server.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-commoncrawl-parser" : {
+            "url" : "git@github.com:Jimdo/data-commoncrawl-parser.git",
+	    "enable-poll-updates" : false
+        },
+
+        "domains-ui-alti-poc" : {
+            "url" : "git@github.com:Jimdo/domains-ui-alti-poc.git",
+	    "enable-poll-updates" : false
+        },
+
+        "domains-ui-altimetrik-poc" : {
+            "url" : "git@github.com:Jimdo/domains-ui-altimetrik-poc.git",
+	    "enable-poll-updates" : false
+        },
+
+        "payment" : {
+            "url" : "git@github.com:Jimdo/payment.git",
+	    "enable-poll-updates" : false
+        },
+
+        "billing-restructured" : {
+            "url" : "git@github.com:Jimdo/billing-restructured.git",
+	    "enable-poll-updates" : false
+        },
+
+        "domains-only-code-ui-alti-poc" : {
+            "url" : "git@github.com:Jimdo/domains-only-code-ui-alti-poc.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sonarqube-kotlin" : {
+            "url" : "git@github.com:Jimdo/sonarqube-kotlin.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-infra-pipeline-example2" : {
+            "url" : "git@github.com:Jimdo/data-infra-pipeline-example2.git",
+	    "enable-poll-updates" : false
+        },
+
+        "console-style" : {
+            "url" : "git@github.com:Jimdo/console-style.git",
+	    "enable-poll-updates" : false
+        },
+
+        "aws-infrastructure-bastion-host" : {
+            "url" : "git@github.com:Jimdo/aws-infrastructure-bastion-host.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dash-vault-scripts" : {
+            "url" : "git@github.com:Jimdo/dash-vault-scripts.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-opa" : {
+            "url" : "git@github.com:Jimdo/data-opa.git",
+	    "enable-poll-updates" : false
+        },
+
+        "openvpn-connector" : {
+            "url" : "git@github.com:Jimdo/openvpn-connector.git",
+	    "enable-poll-updates" : false
+        },
+
+        "DefinitelyTyped" : {
+            "url" : "git@github.com:Jimdo/DefinitelyTyped.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-business-search" : {
+            "url" : "git@github.com:Jimdo/data-business-search.git",
+	    "enable-poll-updates" : false
+        },
+
+        "redshift-query-analytics" : {
+            "url" : "git@github.com:Jimdo/redshift-query-analytics.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-aws-nuke" : {
+            "url" : "git@github.com:Jimdo/data-aws-nuke.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-kube-cleanup-operator" : {
+            "url" : "git@github.com:Jimdo/data-kube-cleanup-operator.git",
+	    "enable-poll-updates" : false
+        },
+
+        "domains-suggestions" : {
+            "url" : "git@github.com:Jimdo/domains-suggestions.git",
+	    "enable-poll-updates" : false
+        },
+
+        "domains-only-code-frontend-poc" : {
+            "url" : "git@github.com:Jimdo/domains-only-code-frontend-poc.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jenkins-deb-archive" : {
+            "url" : "git@github.com:Jimdo/jenkins-deb-archive.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-grafana" : {
+            "url" : "git@github.com:Jimdo/data-grafana.git",
+	    "enable-poll-updates" : false
+        },
+
+        "statistics-service-v2" : {
+            "url" : "git@github.com:Jimdo/statistics-service-v2.git",
+	    "enable-poll-updates" : false
+        },
+
+        "react-router" : {
+            "url" : "git@github.com:Jimdo/react-router.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-k8s-examples" : {
+            "url" : "git@github.com:Jimdo/data-k8s-examples.git",
+	    "enable-poll-updates" : false
+        },
+
+        "should-i-notify-action" : {
+            "url" : "git@github.com:Jimdo/should-i-notify-action.git",
+	    "enable-poll-updates" : false
+        },
+
+        "pactbroker" : {
+            "url" : "git@github.com:Jimdo/pactbroker.git",
+	    "enable-poll-updates" : false
+        },
+
+        "frustration-detection-hackweek" : {
+            "url" : "git@github.com:Jimdo/frustration-detection-hackweek.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dash-with-subscription-management" : {
+            "url" : "git@github.com:Jimdo/dash-with-subscription-management.git",
+	    "enable-poll-updates" : false
+        },
+
+        "hackweek-website-variation" : {
+            "url" : "git@github.com:Jimdo/hackweek-website-variation.git",
+	    "enable-poll-updates" : false
+        },
+
+        "hackweek-jimdo-search" : {
+            "url" : "git@github.com:Jimdo/hackweek-jimdo-search.git",
+	    "enable-poll-updates" : false
+        },
+
+        "hackweek-deeplinks-dash" : {
+            "url" : "git@github.com:Jimdo/hackweek-deeplinks-dash.git",
+	    "enable-poll-updates" : false
+        },
+
+        "hackweek-dolphin-print" : {
+            "url" : "git@github.com:Jimdo/hackweek-dolphin-print.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-onboarding-platform" : {
+            "url" : "git@github.com:Jimdo/wonderland-onboarding-platform.git",
+	    "enable-poll-updates" : false
+        },
+
+        "hackweek-op-one-picture" : {
+            "url" : "git@github.com:Jimdo/hackweek-op-one-picture.git",
+	    "enable-poll-updates" : false
+        },
+
+        "logo-connoisseur" : {
+            "url" : "git@github.com:Jimdo/logo-connoisseur.git",
+	    "enable-poll-updates" : false
+        },
+
+        "paymentteam-queues" : {
+            "url" : "git@github.com:Jimdo/paymentteam-queues.git",
+	    "enable-poll-updates" : false
+        },
+
+        "hackweek-c2d-cms-frontend" : {
+            "url" : "git@github.com:Jimdo/hackweek-c2d-cms-frontend.git",
+	    "enable-poll-updates" : false
+        },
+
+        "hackweek-dolphin-print-cra" : {
+            "url" : "git@github.com:Jimdo/hackweek-dolphin-print-cra.git",
+	    "enable-poll-updates" : false
+        },
+
+        "hackweek-local-product-search" : {
+            "url" : "git@github.com:Jimdo/hackweek-local-product-search.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-oauth2-proxy" : {
+            "url" : "git@github.com:Jimdo/data-oauth2-proxy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "spring-security-simple-tokens" : {
+            "url" : "git@github.com:Jimdo/spring-security-simple-tokens.git",
+	    "enable-poll-updates" : false
+        },
+
+        "hack-week-import-any-website" : {
+            "url" : "git@github.com:Jimdo/hack-week-import-any-website.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-office-buddy-frontend" : {
+            "url" : "git@github.com:Jimdo/jimdo-office-buddy-frontend.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-office-buddy-backend" : {
+            "url" : "git@github.com:Jimdo/jimdo-office-buddy-backend.git",
+	    "enable-poll-updates" : false
+        },
+
+        "anonymous-tracking" : {
+            "url" : "git@github.com:Jimdo/anonymous-tracking.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-airflow" : {
+            "url" : "git@github.com:Jimdo/data-airflow.git",
+	    "enable-poll-updates" : false
+        },
+
+        "open-api-client-generator-docker" : {
+            "url" : "git@github.com:Jimdo/open-api-client-generator-docker.git",
+	    "enable-poll-updates" : false
+        },
+
+        "project-upgrades-demo" : {
+            "url" : "git@github.com:Jimdo/project-upgrades-demo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "growth-tools" : {
+            "url" : "git@github.com:Jimdo/growth-tools.git",
+	    "enable-poll-updates" : false
+        },
+
+        "opentelemetry-collector" : {
+            "url" : "git@github.com:Jimdo/opentelemetry-collector.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sre-coding-dojo" : {
+            "url" : "git@github.com:Jimdo/sre-coding-dojo.git",
+	    "enable-poll-updates" : false
+        },
+
+        "domains-docker-base-images" : {
+            "url" : "git@github.com:Jimdo/domains-docker-base-images.git",
+	    "enable-poll-updates" : false
+        },
+
+        "cms-fe-modularisation" : {
+            "url" : "git@github.com:Jimdo/cms-fe-modularisation.git",
+	    "enable-poll-updates" : false
+        },
+
+        "voice-assistant" : {
+            "url" : "git@github.com:Jimdo/voice-assistant.git",
+	    "enable-poll-updates" : false
+        },
+
+        "swagger_yard" : {
+            "url" : "git@github.com:Jimdo/swagger_yard.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-ci-images" : {
+            "url" : "git@github.com:Jimdo/creator-ci-images.git",
+	    "enable-poll-updates" : false
+        },
+
+        "jimdo-brandbook-wp" : {
+            "url" : "git@github.com:Jimdo/jimdo-brandbook-wp.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-apps-base-images" : {
+            "url" : "git@github.com:Jimdo/creator-apps-base-images.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-infra-tools" : {
+            "url" : "git@github.com:Jimdo/data-infra-tools.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sendgrid-contacts-processor" : {
+            "url" : "git@github.com:Jimdo/sendgrid-contacts-processor.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sre-aws-management" : {
+            "url" : "git@github.com:Jimdo/sre-aws-management.git",
+	    "enable-poll-updates" : false
+        },
+
+        "saas-cicd-flows" : {
+            "url" : "git@github.com:Jimdo/saas-cicd-flows.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland2-buildstatus" : {
+            "url" : "git@github.com:Jimdo/wonderland2-buildstatus.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sre-github-webhook" : {
+            "url" : "git@github.com:Jimdo/sre-github-webhook.git",
+	    "enable-poll-updates" : false
+        },
+
+        "saas-deploy" : {
+            "url" : "git@github.com:Jimdo/saas-deploy.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sre-infra" : {
+            "url" : "git@github.com:Jimdo/sre-infra.git",
+	    "enable-poll-updates" : false
+        },
+
+        "aws-msk-engineering" : {
+            "url" : "git@github.com:Jimdo/aws-msk-engineering.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-airflow-dags" : {
+            "url" : "git@github.com:Jimdo/data-airflow-dags.git",
+	    "enable-poll-updates" : false
+        },
+
+        "terraform-workshop" : {
+            "url" : "git@github.com:Jimdo/terraform-workshop.git",
+	    "enable-poll-updates" : false
+        },
+
+        "creator-cypress-poc" : {
+            "url" : "git@github.com:Jimdo/creator-cypress-poc.git",
+	    "enable-poll-updates" : false
+        },
+
+        "build-your-own-radar" : {
+            "url" : "git@github.com:Jimdo/build-your-own-radar.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-infra-prod" : {
+            "url" : "git@github.com:Jimdo/data-infra-prod.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-debezium-kafka" : {
+            "url" : "git@github.com:Jimdo/data-debezium-kafka.git",
+	    "enable-poll-updates" : false
+        },
+
+        "website-platform" : {
+            "url" : "git@github.com:Jimdo/website-platform.git",
+	    "enable-poll-updates" : false
+        },
+
+        "spring-thrift-starter" : {
+            "url" : "git@github.com:Jimdo/spring-thrift-starter.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dispatch-and-wait" : {
+            "url" : "git@github.com:Jimdo/dispatch-and-wait.git",
+	    "enable-poll-updates" : false
+        },
+
+        "the-bridge" : {
+            "url" : "git@github.com:Jimdo/the-bridge.git",
+	    "enable-poll-updates" : false
+        },
+
+        "wonderland-shrooms" : {
+            "url" : "git@github.com:Jimdo/wonderland-shrooms.git",
+	    "enable-poll-updates" : false
+        },
+
+        "ssosync" : {
+            "url" : "git@github.com:Jimdo/ssosync.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-infra-jobs" : {
+            "url" : "git@github.com:Jimdo/data-infra-jobs.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sre-backstage" : {
+            "url" : "git@github.com:Jimdo/sre-backstage.git",
+	    "enable-poll-updates" : false
+        },
+
+        "sre-backstage-example-service" : {
+            "url" : "git@github.com:Jimdo/sre-backstage-example-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "domains-frontend" : {
+            "url" : "git@github.com:Jimdo/domains-frontend.git",
+	    "enable-poll-updates" : false
+        },
+
+        "opentelemetry-ktor-exploration" : {
+            "url" : "git@github.com:Jimdo/opentelemetry-ktor-exploration.git",
+	    "enable-poll-updates" : false
+        },
+
+        "slack-success-action" : {
+            "url" : "git@github.com:Jimdo/slack-success-action.git",
+	    "enable-poll-updates" : false
+        },
+
+        "dolphin-console" : {
+            "url" : "git@github.com:Jimdo/dolphin-console.git",
+	    "enable-poll-updates" : false
+        },
+
+        "domains-backend" : {
+            "url" : "git@github.com:Jimdo/domains-backend.git",
+	    "enable-poll-updates" : false
+        },
+
+        "openapi-generator" : {
+            "url" : "git@github.com:Jimdo/openapi-generator.git",
+	    "enable-poll-updates" : false
+        },
+
+        "user-account-dependabot-gh-test" : {
+            "url" : "git@github.com:Jimdo/user-account-dependabot-gh-test.git",
+	    "enable-poll-updates" : false
+        },
+
+        "image-super-resolution" : {
+            "url" : "git@github.com:Jimdo/image-super-resolution.git",
+	    "enable-poll-updates" : false
+        },
+
+        "multisource-aws-glue-etl" : {
+            "url" : "git@github.com:Jimdo/multisource-aws-glue-etl.git",
+	    "enable-poll-updates" : false
+        },
+
+        "domains-frontend-ui" : {
+            "url" : "git@github.com:Jimdo/domains-frontend-ui.git",
+	    "enable-poll-updates" : false
+        },
+
+        "domains-frontend-poc" : {
+            "url" : "git@github.com:Jimdo/domains-frontend-poc.git",
+	    "enable-poll-updates" : false
+        },
+
+        "data-transforms" : {
+            "url" : "git@github.com:Jimdo/data-transforms.git",
+	    "enable-poll-updates" : false
+        },
+
+        "domains-infra-creation" : {
+            "url" : "git@github.com:Jimdo/domains-infra-creation.git",
+	    "enable-poll-updates" : false
+        },
+
+        "github-actions-test" : {
+            "url" : "git@github.com:Jimdo/github-actions-test.git",
+	    "enable-poll-updates" : false
+        },
+
+        "debt-collection-service" : {
+            "url" : "git@github.com:Jimdo/debt-collection-service.git",
+	    "enable-poll-updates" : false
+        },
+
+        "growth-extension-testing" : {
+            "url" : "git@github.com:Jimdo/growth-extension-testing.git",
+	    "enable-poll-updates" : false
+        },
+
+        "browserslist-config-jimdo" : {
+            "url" : "git@github.com:Jimdo/browserslist-config-jimdo.git",
+	    "enable-poll-updates" : false
+        }
+    }
+}
