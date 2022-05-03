@@ -1,3 +1,5 @@
+# This has been archived because Githubs own search has been extended.
+
 # Hound
 
 [![Build Status](https://travis-ci.org/hound-search/hound.svg?branch=master)](https://travis-ci.org/hound-search/hound)
